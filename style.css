@@ -229,6 +229,68 @@ h1{
 	z-index: 10;
 }
 
+
+/*-----------------ÄNDRAT----------*/
+
+.trees_row:nth-child(1) {z-index: 30;}
+
+.trees_row:nth-child(2) {z-index: 30;}
+
+.trees_row img {position: absolute;}
+
+.row:nth-child(1) img {bottom:-50px;}
+
+.row:nth-child(2) img {bottom:-100px;}
+
+.row:nth-child(1) img:nth-child(1) {left: 0;}
+
+.row:nth-child(1) img:nth-child(2) {left: 7%;}
+
+.row:nth-child(1) img:nth-child(3) {left: 15%;}
+
+.row:nth-child(1) img:nth-child(4) {left: 25%;}
+
+.row:nth-child(1) img:nth-child(5) {left: 31%;}
+
+.row:nth-child(1) img:nth-child(6) {left: 36%;}
+
+.row:nth-child(1) img:nth-child(7) {left: 47%;}
+
+.row:nth-child(1) img:nth-child(8) {left: 55%;}
+
+.row:nth-child(1) img:nth-child(9) {left: 59%;}
+
+.row:nth-child(1) img:nth-child(10) {left: 63%;}
+
+.row:nth-child(1) img:nth-child(11) {left: 66%;}
+
+.row:nth-child(1) img:nth-child(12) {left: 70%;}
+
+.row:nth-child(1) img:nth-child(13) {left: 79.5%;}
+
+
+.row:nth-child(2) img:nth-child(1) {left: 3%;}
+
+.row:nth-child(2) img:nth-child(2) {left: 10%;}
+
+.row:nth-child(2) img:nth-child(3) {left: 20%;}
+
+.row:nth-child(2) img:nth-child(4) {left: 29%;}
+
+.row:nth-child(2) img:nth-child(5) {left: 39%;}
+
+.row:nth-child(2) img:nth-child(6) {left: 48%;}
+
+.row:nth-child(2) img:nth-child(7) {left: 58%;}
+
+.row:nth-child(2) img:nth-child(8) {left: 67%;}
+
+.row:nth-child(2) img:nth-child(9) {left:  79.5%;}
+
+
+
+
+
 /*------------------------background colors----------------------*/
 .part:nth-child(1){
 	width: 100%;
