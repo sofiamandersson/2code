@@ -32,97 +32,56 @@ h1{
 
 /*---------------------------images in the background--------------------------*/
 
+.clouds_regular img, .cloud_hail img, .hail img, .cloud_worried img, .house_row img, .firsttown img, .firsttown img, .waves img, .mountain img, .trees_row img, .cloud_stretch img, .trees_part1 img, .trees_part2 img, .cottage img, .town img {
+    position: absolute;
+}
+
 
 /*----regular clouds----*/
+
 .clouds_regular img:nth-child(1){
-	position: absolute;
 	top: 50%;
 	left: 70%; 
 	display: block;
 }
 
 .clouds_regular img:nth-child(2){
-	position: absolute;
 	top: 400px;
 	left: 200px;
 	height: 200px;
 	opacity: 0.5;
 }
 
-.clouds_regular img:nth-child(3){
-	position: absolute;
-	top: 20%;
-	left: 60%;
-}
+.clouds_regular img:nth-child(3){top: 20%;left: 60%;}
 
-.clouds_regular img:nth-child(4){
-	position: absolute;
-	top: 20%;
-	left: 10%;
-}
+.clouds_regular img:nth-child(4){top: 20%;left: 10%;}
 
 /*----clouds hail----*/
 
-.cloud_hail img:nth-child(1) {
-	position: absolute;
-	top: 10%;
-	left: 60%;
-}
+.cloud_hail img:nth-child(1) {top: 10%;left: 60%;}
 
-.cloud_hail img:nth-child(2) {
-	position: absolute;
-	top: 25%;
-	left: 20%;
-}
-.cloud_hail img:nth-child(3) {
-	position: absolute;
-	top: 5%;
-	left: 40%;
-}
+.cloud_hail img:nth-child(2) {top: 25%;left: 20%;}
+
+.cloud_hail img:nth-child(3) {top: 5%;left: 40%;}
 
 /*-------Hail---------*/
 
-.hail img:nth-child(1) {
-	position: absolute;
-	top:20%
-	left 10%;
-}
+.hail img:nth-child(1) {top:20%;left: 10%;}
 
-.hail img:nth-child(2) {
-	position: absolute;
-	left: 70%;
-	top: 30%;
-}
+.hail img:nth-child(2) {left: 70%;top: 30%;}
 
-.hail img:nth-child(3) {
-	position: absolute;
-	left: 20%;
-	top: 40%;
-}
+.hail img:nth-child(3) {left: 20%;top: 40%;}
 
 /*---------clouds worried-------*/
 
-.cloud_worried img:nth-child(1) {
-	position: absolute;
-	top: 55%;
-	left: 60%;
-}
+.cloud_worried img:nth-child(1) {top: 55%;left: 60%;}
 
-.cloud_worried img:nth-child(2) {
-	position: absolute;
-	top: 40%;
-	left: 5%;
-}
+.cloud_worried img:nth-child(2) {top: 40%;left: 5%;}
 
-.cloud_worried img:nth-child(3) {
-	position: absolute;
-	top: 40%;
-	left: 65%;
-}
+.cloud_worried img:nth-child(3) {top: 40%;left: 65%;}
 
 .cloud_worried img:nth-child(4) {
-	transform: scale(0.6);
-	position: absolute;
+    transform: scale(0.6);
 	top: 55%;
 	left: 5%;
 }
@@ -130,7 +89,6 @@ h1{
 /*---House row---*/
 
 .house_row img:nth-child(1) {
-	position: absolute;
 	top: -5%;
 	left: 0;
 	width: 100%;
@@ -139,271 +97,124 @@ h1{
 
 /*----First town----*/
 
-.firsttown img:nth-child(1){
-    position:absolute;
-    top:5%;
-    left:80%;
-}
+.firsttown img:nth-child(1){top:5%; left:80%;}
 
-.firsttown img:nth-child(2){
-    position:absolute;
-    top:5%;
-}
+.firsttown img:nth-child(2){top:5%;}
 
-.firsttown img:nth-child(3){
-    position:absolute;
-    top:10%;
-    left:80%;
-}
+.firsttown img:nth-child(3){top:10%;left:80%;}
 
-.firsttown img:nth-child(4){
-    position:absolute;
-    top:10%;
-}
+.firsttown img:nth-child(4){top:10%;}
 
-.firsttown img:nth-child(5){
-    position:absolute;
-    top:15%;
-    left:80%;
-}
+.firsttown img:nth-child(5){top:15%;left:80%;}
 
-.firsttown img:nth-child(6){
-    position:absolute;
-    top:15%;
-}
+.firsttown img:nth-child(6){top:15%;}
 
-.firsttown img:nth-child(7){
-    position:absolute;
-    top:20%;
-}
+.firsttown img:nth-child(7){top:20%;}
 
-.firsttown img:nth-child(8){
-    position:absolute;
-    top:20%;
-    left:80%;
-}
+.firsttown img:nth-child(8){top:20%;left:80%;}
 
-.firsttown img:nth-child(9){
-    position:absolute;
-    top:25%;
-}
+.firsttown img:nth-child(9){top:25%;}
 
-.firsttown img:nth-child(10){
-    position:absolute;
-    top:25%;
-    left:80%;
-}
+.firsttown img:nth-child(10){top:25%;left:80%;}
 
-.firsttown img:nth-child(11){
-    position:absolute;
-    top:30%;
-}
+.firsttown img:nth-child(11){top:30%;}
 
-.firsttown img:nth-child(12){
-    position:absolute;
-    top:30%;
-    left:80%;
-    
-}
+.firsttown img:nth-child(12){top:30%;left:80%;}
 
-.firsttown img:nth-child(13){
-    position:absolute;
-    top:35%;
-    
-}
+.firsttown img:nth-child(13){top:35%;}
 
-.firsttown img:nth-child(14){
-    position:absolute;
-    top:35%;
-    left:80%;
-}
+.firsttown img:nth-child(14){top:35%;left:80%;}
 
-.firsttown img:nth-child(15){
-    position:absolute;
-    top:40%;
-}
+.firsttown img:nth-child(15){top:40%;}
 
-.firsttown img:nth-child(16){
-    position:absolute;
-    top:40%;
-    left:80%;
-}
+.firsttown img:nth-child(16){top:40%;left:80%;}
 
-.firsttown img:nth-child(17){
-    position:absolute;
-    top:45%;
-}
+.firsttown img:nth-child(17){top:45%;}
 
-.firsttown img:nth-child(18){
-    position:absolute;
-    top:45%;
-    left:80%;
-}
+.firsttown img:nth-child(18){top:45%;left:80%;}
 
 /*---------ROW2-------*/
-.firsttown img:nth-child(19){
-    position:absolute;
-    top:5%;
-    left:70%;
-}
+.firsttown img:nth-child(19){top:5%;left:70%;}
 
-.firsttown img:nth-child(20){
-    position:absolute;
-    top:5%;
-    right:80%;
-}
+.firsttown img:nth-child(20){top:5%;right:80%;}
 
-.firsttown img:nth-child(21){
-    position:absolute;
-    top:10%;
-    left:70%;
-}
+.firsttown img:nth-child(21){top:10%;left:70%;}
 
-.firsttown img:nth-child(22){
-    position:absolute;
-    top:10%;
-    right:80%;
-}
+.firsttown img:nth-child(22){top:10%;right:80%;}
 
-.firsttown img:nth-child(23){
-    position:absolute;
-    top:15%;
-    left:70%;
-}
+.firsttown img:nth-child(23){top:15%;left:70%;}
 
-.firsttown img:nth-child(24){
-    position:absolute;
-    top:15%;
-    right:80%;
-}
+.firsttown img:nth-child(24){top:15%;right:80%;}
 
-.firsttown img:nth-child(25){
-    position:absolute;
-    top:20%;
-    right:80%;
-}
+.firsttown img:nth-child(25){top:20%;right:80%;}
 
-.firsttown img:nth-child(26){
-    position:absolute;
-    top:20%;
-    left:70%;
-}
+.firsttown img:nth-child(26){top:20%;left:70%;}
 
-.firsttown img:nth-child(27){
-    position:absolute;
-    top:25%;
-    right:80%;
-}
+.firsttown img:nth-child(27){top:25%;right:80%;}
 
-.firsttown img:nth-child(28){
-    position:absolute;
-    top:25%;
-    left:70%;
-    
-}
-.firsttown img:nth-child(29){
-    position:absolute;
-    top:30%;
-    right:80%;
-}
+.firsttown img:nth-child(28){top:25%;left:70%;}
 
-.firsttown img:nth-child(30){
-    position:absolute;
-    top:30%;
-    left:70%;
-}
+.firsttown img:nth-child(29){top:30%;right:80%;}
 
-.firsttown img:nth-child(31){
-    position:absolute;
-    top:35%;
-    right:80%;
-}
+.firsttown img:nth-child(30){top:30%;left:70%;}
 
-.firsttown img:nth-child(32){
-    position:absolute;
-    top:35%;
-    left:70%;
-    
-}
+.firsttown img:nth-child(31){top:35%;right:80%;}
 
-.firsttown img:nth-child(33){
-    position:absolute;
-    top:40%;
-    right:80%;
-}
+.firsttown img:nth-child(32){top:35%;left:70%;}
 
-.firsttown img:nth-child(34){
-    position:absolute;
-    top:40%;
-    left:70%;
-    
-}
+.firsttown img:nth-child(33){top:40%;right:80%;}
 
-.firsttown img:nth-child(35){
-    position:absolute;
-    top:45%;
-    right:80%;
-}
+.firsttown img:nth-child(34){top:40%;left:70%;}
 
-.firsttown img:nth-child(36){
-    position:absolute;
-    top:45%;
-    left:70%;
-}
+.firsttown img:nth-child(35){top:45%;right:80%;}
+
+.firsttown img:nth-child(36){top:45%;left:70%;}
 
 /*-----Waves-----*/
 
 .waves img:nth-child(1) {
-	position: absolute;
 	top: 0%;
 	left: 0%;
 	opacity: 0.4;
 }
 
 .waves img:nth-child(2) {
-	position: absolute;
 	top: 20%;
 	left: 15%;
 	opacity: 0.4;
 }
 
 .waves img:nth-child(3) {
-	position: absolute;
 	top: 45%;
 	left: 0%;
 	opacity: 0.4;
 }
 
 .waves img:nth-child(4) {
-	position: absolute;
 	top: 70%;
 	left: 15%;
 	opacity: 0.4;
 }
 
 .waves img:nth-child(5) {
-	position: absolute;
 	top: 0%;
 	left: 65%;
 	opacity: 0.4;
 }
 
 .waves img:nth-child(6) {
-	position: absolute;
 	top: 20%;
 	left: 70%;
 	opacity: 0.6;
 }
 
 .waves img:nth-child(7) {
-	position: absolute;
 	top: 45%;
 	left: 70%;
 	opacity: 0.4;
 }
 
 .waves img:nth-child(8) {
-	position: absolute;
 	top: 70%;
 	left: 70%;
 	opacity: 0.4;
@@ -411,7 +222,6 @@ h1{
 
 /*--Cloud boat--*/
 .cloud_boat img:nth-child(1){
-	position: absolute;
 	top: -30%;
 	left: 30%;
 }
@@ -419,18 +229,16 @@ h1{
 /*-------mountain------*/ /*FLYTTAD Hanna 9/10*/
 
 .mountain img:nth-child(1){
-	position: absolute;
 	bottom: 0;
 	left: 0;
 	width: 100%;
 	z-index: 20;
 }
+
 /*--trees together--*/
 .trees_row:nth-child(1) {z-index: 30;}
 
 .trees_row:nth-child(2) {z-index: 30;}
-
-.trees_row img {position: absolute;}
 
 .row:nth-child(1) img {bottom:-50px;}
 
@@ -482,172 +290,71 @@ h1{
 .row:nth-child(2) img:nth-child(9) {left:  79.5%;}
 
 /*---cloud stretch---*/
-.cloud_stretch img:nth-child(1) {
-    position: absolute;
-    top: 18%;
-    left: 10%;
-}
+.cloud_stretch img:nth-child(1) {top: 18%;left: 10%;}
 
-.cloud_stretch img:nth-child(2) {
-    position: absolute;
-    top: 10%;
-    left: 65%;
-}
+.cloud_stretch img:nth-child(2) {top: 10%;left: 65%;}
 
-.cloud_stretch img:nth-child(3) {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
+.cloud_stretch img:nth-child(3) {top: 50%;left: 50%;}
 
-.cloud_stretch img:nth-child(4) {
-    position: absolute;
-    top: 80%;
-    left: 27%;
-}
+.cloud_stretch img:nth-child(4) {top: 80%;left: 27%;}
 
 /*---------trees-------*/
 
-.trees_part1 img:nth-child(1) {
-	position: absolute;
-	top: 15%;
-	left: 0%;
-}
-.trees_part1 img:nth-child(2) {
-	position: absolute;
-	top: 40%;
-	left: 50%;
-}
-.trees_part1 img:nth-child(3) {
-    position: absolute;
-    top: 20%;
-    left: 7%;
-}
-.trees_part1 img:nth-child(4) {
-    position: absolute;
-    top: 70%;
-    left: 5%;
-}
-.trees_part1 img:nth-child(5) {
-    position: absolute;
-    top: 5%;
-    left: 75%;
-}
-.trees_part1 img:nth-child(6) {
-    position: absolute;
-    top: 50%;
-    left: 45%;
-}
-.trees_part1 img:nth-child(7) {
-    position: absolute;
-    top: 25%;
-    left: 79%;
-}
-.trees_part1 img:nth-child(8) {
-    position: absolute;
-    top: 75%;
-    left: 30%;
-}
-.trees_part1 img:nth-child(9) {
-    position: absolute;
-    top: 45%;
-    left: 62%;
-}
-.trees_part1 img:nth-child(10) {
-    position: absolute;
-    top: 60%;
-    left: 79%;
-}
-.trees_part1 img:nth-child(11) {
-    position: absolute;
-    top: 63%;
-    left: 75%;
-}
-.trees_part1 img:nth-child(12) {
-    position: absolute;
-    top: 85%;
-    left: 20%;
-}
-.trees_part1 img:nth-child(13) {
-    position: absolute;
-    top: 40%;
-    left: 10%;
-}
+.trees_part1 img:nth-child(1) {top: 15%;left: 0%;}
 
-.trees_part1 img:nth-child(14) { /*ändrat Hanna 9/10*/
-    position: absolute;
-    top: 13%;
-    left: 48%;
-}
+.trees_part1 img:nth-child(2) {top: 40%;left: 50%;}
+
+.trees_part1 img:nth-child(3) {top: 20%;left: 7%;}
+
+.trees_part1 img:nth-child(4) {top: 70%;left: 5%;}
+
+.trees_part1 img:nth-child(5) {top: 5%;left: 75%;}
+
+.trees_part1 img:nth-child(6) {top: 50%;left: 45%;}
+
+.trees_part1 img:nth-child(7) {top: 25%;left: 79%;}
+
+.trees_part1 img:nth-child(8) {top: 75%;left: 30%;}
+
+.trees_part1 img:nth-child(9) {top: 45%;left: 62%;}
+
+.trees_part1 img:nth-child(10) {top: 60%;left: 79%;}
+
+.trees_part1 img:nth-child(11) {top: 63%;left: 75%;}
+
+.trees_part1 img:nth-child(12) {top: 85%;left: 20%;}
+
+.trees_part1 img:nth-child(13) {top: 40%;left: 10%;}
+
+.trees_part1 img:nth-child(14) {top: 13%;left: 48%;}
 
 /*-------Majas trees-----------*/ /*ändrat Hanna 9/10*/
 
-.trees_part2 img:nth-child(1){
-	position:absolute;
-	top:2%;
-    left:15%;
-}
+.trees_part2 img:nth-child(1){top:2%;left:15%;}
 
-.trees_part2 img:nth-child(2){
-	position:absolute;
-	top:40%;
-	left:55%;
-}
+.trees_part2 img:nth-child(2){top:40%;left:55%;}
 
-.trees_part2 img:nth-child(3){
-	position:absolute;
-	top:10%;
-	left:80%;
-}
+.trees_part2 img:nth-child(3){top:10%;left:80%;}
 
-.trees_part2 img:nth-child(4){
-	position:absolute;
-	top:60%;
-    left:5%;
-}
+.trees_part2 img:nth-child(4){top:60%;left:5%;}
 
 /*-------Majas houses-----*/ /*ändrat Hanna 9/10*/
 
-.cottage img:nth-child(1){
-	position:absolute;
-	top:50%;
-	left:30%;
-}
+.cottage img:nth-child(1){top:50%;left:30%;}
 
-.cottage img:nth-child(2){
-	position:absolute;
-	top:15%;
-	left:60%; 
-}
+.cottage img:nth-child(2){top:15%;left:60%; }
 
-.cottage img:nth-child(3){
-	position:absolute;
-	top:36%;
-    left:10%;	
-}
+.cottage img:nth-child(3){top:36%;left:10%;	}
 
-.cottage img:nth-child(4){
-	position:absolute;
-	top:70%;
-    left:80%;
-}
+.cottage img:nth-child(4){top:70%;left:80%;}
 
-.cottage img:nth-child(5){
-    position: absolute;
-    top: 28%;
-    left: 38%
-}
+.cottage img:nth-child(5){top: 28%;left: 38%}
 
-.cottage img:nth-child(6){
-    position: absolute;
-    top: 47%;
-    left: 87%
-}
+.cottage img:nth-child(6){top: 47%;left: 87%}
 
 /*-------town------*/
 
 .town img:nth-child(1){
-	position: absolute;
 	bottom: 0;
 	left: 0;
 	width: 100%;
@@ -655,7 +362,6 @@ h1{
 }
 
 .town img:nth-child(2){
-	position: absolute;
 	bottom: 0;
 	left: 0;
 	width: 100%;
@@ -708,7 +414,7 @@ h1{
 
 .part:nth-child(5) {
     width: 100%;
-    height: 600px;
+    height: 2500px;
     background-color:#6BB9D1 ;
     background-image: -webkit-linear-gradient(bottom, rgb(214, 191, 128) 6%, rgb(107, 185, 209) 60%);
     background-image: -moz-linear-gradient(bottom, rgb(214, 191, 128) 6%, rgb(107, 185, 209) 60%);
