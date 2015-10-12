@@ -26,13 +26,14 @@ h1{
 	left: 50%;
 	position: fixed;
 	z-index: 15;
+    width: 150px;
 }
 
 
 
 /*---------------------------images in the background--------------------------*/
 
-.clouds_regular img, .cloud_hail img, .hail img, .cloud_worried img, .house_row img, .firsttown img, .firsttown img, .waves img, .mountain img, .trees_row img, .cloud_stretch img, .trees_part1 img, .trees_part2 img, .cottage img, .town img {
+.clouds_regular img, .cloud_hail img, .hail img, .cloud_worried img, .house_row img, .firsttown img, .firsttown img, .waves img, .mountain img, .trees_row img, .cloud_stretch img, .trees_part1 img, .trees_part2 img, .cottage img, .town img, .cloud_boat img {
     position: absolute;
 }
 
@@ -47,12 +48,12 @@ h1{
 
 .clouds_regular img:nth-child(2){
 	top: 400px;
-	left: 200px;
+	left: 0;
 	height: 200px;
 	opacity: 0.5;
 }
 
-.clouds_regular img:nth-child(3){top: 20%;left: 60%;}
+.clouds_regular img:nth-child(3){top: 20%;right: 0;}
 
 .clouds_regular img:nth-child(4){top: 20%;left: 10%;}
 
@@ -66,11 +67,9 @@ h1{
 
 /*-------Hail---------*/
 
-.hail img:nth-child(1) {top:20%;left: 10%;}
 
-.hail img:nth-child(2) {left: 70%;top: 30%;}
 
-.hail img:nth-child(3) {left: 20%;top: 40%;}
+
 
 /*---------clouds worried-------*/
 
@@ -89,7 +88,7 @@ h1{
 /*---House row---*/
 
 .house_row img:nth-child(1) {
-	top: -5%;
+	bottom: 0;
 	left: 0;
 	width: 100%;
 	z-index: 20;
@@ -222,7 +221,7 @@ h1{
 
 /*--Cloud boat--*/
 .cloud_boat img:nth-child(1){
-	top: -30%;
+	top: 30%;
 	left: 30%;
 }
 
@@ -240,9 +239,9 @@ h1{
 
 .trees_row:nth-child(2) {z-index: 30;}
 
-.row:nth-child(1) img {bottom:-50px;}
+.row:nth-child(1) img {bottom:50px;}
 
-.row:nth-child(2) img {bottom:-100px;}
+.row:nth-child(2) img {bottom:0;}
 
 .row:nth-child(1) img:nth-child(1) {left: 0;}
 
@@ -369,6 +368,9 @@ h1{
 }
 
 /*------------------------background colors----------------------*/
+
+.part {overflow: hidden;}
+
 .part:nth-child(1){
 	width: 100%;
 	height: 2000px;
@@ -383,16 +385,19 @@ h1{
     width: 100%;
     height: 2000px;
     background-color: #355C68 ;
+    /*
     background-image: -webkit-linear-gradient(bottom, rgb(214, 191, 128) 0, rgb(53, 92, 104) 30%);
     background-image: -moz-linear-gradient(bottom, rgb(214, 191, 128) 0, rgb(53, 92, 104) 30%);
     background-image: -o-linear-gradient(bottom, rgb(214, 191, 128) 0, rgb(53, 92, 104) 30%);
     background-image: -ms-linear-gradient(bottom, rgb(214, 191, 128) 0, rgb(53, 92, 104) 30%);
     background-image: linear-gradient(bottom, rgb(214, 191, 128) 0, rgb(53, 92, 104) 30%);
+    */
+    /*background: black;*/
 }
 
 .part:nth-child(3) {
 	width: 100%;
-	height: 3000px;
+	height: 5000px;
 	background-color: #d6bf80;
 	background-image: -webkit-linear-gradient(bottom, rgb(7, 66, 95) 10%, rgb(214, 191, 128) 60%);
 	background-image: -moz-linear-gradient(bottom, rgb(7, 66, 95) 10%, rgb(214, 191, 128) 60%);
@@ -414,13 +419,15 @@ h1{
 
 .part:nth-child(5) {
     width: 100%;
-    height: 2500px;
+    height: 1500px;
     background-color:#6BB9D1 ;
+    /*
     background-image: -webkit-linear-gradient(bottom, rgb(214, 191, 128) 6%, rgb(107, 185, 209) 60%);
     background-image: -moz-linear-gradient(bottom, rgb(214, 191, 128) 6%, rgb(107, 185, 209) 60%);
     background-image: -o-linear-gradient(bottom, rgb(214, 191, 128) 6%, rgb(107, 185, 209) 60%);
     background-image: -ms-linear-gradient(bottom, rgb(214, 191, 128) 6%, rgb(107, 185, 209) 60%);
     background-image: linear-gradient(bottom, rgb(214, 191, 128) 6%, rgb(107, 185, 209) 60%);
+    */
 }
 
 .part:nth-child(6){
@@ -447,7 +454,7 @@ h1{
 
 .part:nth-child(8) {
    width: 100%;
-   height: 900px;
+   height: 1500px;
    background-color: #865009 ;
    background-image: -webkit-linear-gradient(bottom, rgb(134, 80, 9)60%, rgb(22, 143, 30) 100%);
     background-image: -moz-linear-gradient(bottom, rgb(134, 80, 9) 100%, rgb(22, 143, 30) 100%);
@@ -469,24 +476,28 @@ h1{
 
 .part:nth-child(10) {
    width: 100%;
-   height: 600px;
+   height: 2000px;
    background-color: #6BB9D1 ;
+    /*
    background-image: -webkit-linear-gradient(bottom, rgb(107, 185, 209) 50%, rgb(131, 209, 120) 100%);
     background-image: -moz-linear-gradient(bottom, rgb(107, 185, 209) 100%, rgb(131, 209, 120) 100%);
     background-image: -o-linear-gradient(bottom, rgb(107, 185, 209) 100%, rgb(131, 209, 120) 100%);
     background-image: -ms-linear-gradient(bottom, rgb(107, 185, 209) 100%, rgb(131, 209, 120) 100%);
     background-image: linear-gradient(bottom, rgb(107, 185, 209) 100%, rgb(131, 209, 120) 100%);
+    */
 }
 
 .part:nth-child(11) {
    width: 100%;
    height: 600px;
    background-color: #6BB9D1 ;
-   background-image: -webkit-linear-gradient(bottom, rgb(107, 185, 209) 100%,rgb(107, 185, 209) 100%);
+   /*
+    background-image: -webkit-linear-gradient(bottom, rgb(107, 185, 209) 100%,rgb(107, 185, 209) 100%);
     background-image: -moz-linear-gradient(bottom, rgb(107, 185, 209) 100%, rgb(107, 185, 209) 100%);
     background-image: -o-linear-gradient(bottom, rgb(107, 185, 209) 100%, rgb(107, 185, 209) 100%);
     background-image: -ms-linear-gradient(bottom, rgb(107, 185, 209) 100%, rgb(107, 185, 209) 100%);
     background-image: linear-gradient(bottom, rgb(107, 185, 209) 100%, rgb(107, 185, 209) 100%);
+    */
 }
 
 footer {
@@ -514,4 +525,30 @@ footer {
 footer p {
 	margin: 0 auto;
 	text-align: center;
+}
+
+
+.hail img:nth-child(1) {top:0%; left: -121%;  margin-top: -50%;}
+
+.hail img:nth-child(2) {top:0%; left: -90%; margin-top: -50%;}
+
+.hail img:nth-child(3) {top:0%; left: -59%; margin-top: -50%;}
+
+.hail img:nth-child(4) {top:0%; left: -28%; margin-top: -50%;}
+
+.hail img:nth-child(5) {top:0%; left: 3%; margin-top: -50%; }
+
+
+
+.hej {
+    z-index: 100;
+
+}
+
+.hail {
+    -webkit-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    -o-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+    transform:rotate(-45deg);
 }
