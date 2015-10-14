@@ -591,98 +591,45 @@ footer p {
 
 @media screen and (max-width: 320px){
 
-.wrap  {
-top: 15px;
-width:320px;
-margin-left: -60px;
-background-color: green;
- }
-.cloud {
-top:150px;
-width:90px;
-}
+    .wrap  {width:320px;}
+    
+    .cloud {top:150px; width:20%;}
 
-.clouds_regular {
-width:90px;
-} 
+    .clouds_regular {width:100%;} 
 
-.cloud_hail {
-width:90px;
-	}
+    .clouds_regular img:nth-child(2){top: 0%; width: 20%; height: 20%}
 
-.hail {
+    .cloud_hail {width:90px;}
 
-transform:scale(0.7);
-} 
+    .hail {transform:scale(0.7);} 
 
-.cloud_worried {
+    .cloud_worried {width:90px;} 
 
-width:90px;
-	} 
+    .house_row {width:90px; } 
 
-.house_row {
+    .firsttown {width:90px;} 
 
-width:90px;
-	} 
+    .firsttown {width:90px;} 
 
-.firsttown {
+    .waves  {width:90px;}
 
-width:90px;
-	} 
+    .mountain {width:90px;} 
 
-.firsttown {
+    .trees_row {width:90px;} 
 
-width:90px;
-	} 
+    .cloud_stretch { width:90px; } 
 
-.waves  {
+    .trees_part1 {width:90px; }
 
-width:90px;
-	}
+    .trees_part2 {width:90px;} 
 
-.mountain {
+    .cottage {width:90px;}
 
-width:90px;
-	} 
+    .town {width:90px; } 
 
-.trees_row {
+    .cloud_boat { width:90px;}
 
-width:90px;
-	} 
-
-.cloud_stretch {
-
-width:90px;
-		} 
-
-.trees_part1 {
-
-width:90px;
-}
-
-.trees_part2 {
-
-width:90px;
-	} 
-
-.cottage {
-
-width:90px;
-	}
-
-.town {
-
-width:90px;
-	} 
-
-.cloud_boat {
-
-width:90px;
-}
-
-img {
-	transform:scale(0.8);
-}
+    img { transform:scale(0.8);}
 
 }
 
