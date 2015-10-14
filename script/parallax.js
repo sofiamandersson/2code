@@ -1,3 +1,4 @@
+//clouds in begining
 var coludsregular = document.getElementsByClassName('part1pase1')[0];
 var coludsregular2 = document.getElementsByClassName('part1pase2')[0];
 
@@ -6,13 +7,31 @@ var parallax = function () {
     var offset = scroll * 0.3;
     coludsregular.style.transform = 'translateY(' + (offset * 1.5) + 'px)';
     coludsregular2.style.transform = 'translateY(' + offset + 'px)';
-//header.style.top = offset + 'px'
+
   window.requestAnimationFrame(parallax);
 }
 
-
 parallax();
 
+
+//clouds war
+
+var coludswar = document.getElementsByClassName('cloudvertical')[0];
+
+var parallaxwar = function () {
+    var scroll = window.scrollY;
+    var offset = scroll * 0.25;
+    coludswar.style.transform = 'translateX(' + offset + 'px) rotate(' + offset + 'deg)';
+
+
+  window.requestAnimationFrame(parallaxwar);
+}
+
+parallaxwar();
+
+
+
+//hail
 var hail = document.getElementsByClassName('hej')[0];
 var hail2 = document.getElementsByClassName('hej2')[0];
 var hail3 = document.getElementsByClassName('hej3')[0];
@@ -34,8 +53,7 @@ var parallax2 = function () {
     hail6.style.transform = 'translate(' + offset  + 'px,' + offset + 'px)';
     hail7.style.transform = 'translate(' + offset  + 'px,' + offset + 'px)';
     hail8.style.transform = 'translate(' + offset  + 'px,' + offset + 'px)';
-
-  //header.style.top = offset + 'px'
+    
   window.requestAnimationFrame(parallax2);
 }
 
