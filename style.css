@@ -588,3 +588,103 @@ footer p {
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 }
+
+@media screen and (max-width: 320px){
+
+.wrap  {
+top: 15px;
+width:320px;
+margin-left: -60px;
+background-color: green;
+ }
+.cloud {
+top:150px;
+width:90px;
+}
+
+.clouds_regular {
+width:90px;
+} 
+
+.cloud_hail {
+width:90px;
+	}
+
+.hail {
+
+transform:scale(0.7);
+} 
+
+.cloud_worried {
+
+width:90px;
+	} 
+
+.house_row {
+
+width:90px;
+	} 
+
+.firsttown {
+
+width:90px;
+	} 
+
+.firsttown {
+
+width:90px;
+	} 
+
+.waves  {
+
+width:90px;
+	}
+
+.mountain {
+
+width:90px;
+	} 
+
+.trees_row {
+
+width:90px;
+	} 
+
+.cloud_stretch {
+
+width:90px;
+		} 
+
+.trees_part1 {
+
+width:90px;
+}
+
+.trees_part2 {
+
+width:90px;
+	} 
+
+.cottage {
+
+width:90px;
+	}
+
+.town {
+
+width:90px;
+	} 
+
+.cloud_boat {
+
+width:90px;
+}
+
+img {
+	transform:scale(0.8);
+}
+
+}
+
+
+
