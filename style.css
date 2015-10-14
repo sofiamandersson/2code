@@ -629,7 +629,7 @@ footer p {
 
     .cloud_boat { width:90px;}
 
-    img { transform:scale(0.8);}
+    .part:nth-child(11) article {width: 90%;}
 
 }
 
