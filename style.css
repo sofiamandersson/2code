@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+    font-family: 'Open Sans', sans-serif; /*ändrat*/
 }
 
 .wrap {
@@ -500,19 +501,14 @@ h1{
     */
 }
 
-footer {
-	width: 100%;
-	height: 50px;
-	background-color: green;	
-}
 
 /*----text end-----*/
+/*hanna 13/10*/
 
 .part:nth-child(11) article {
 	margin: 0 auto;
-	width: 600px;
+	width: 60%;
 	padding: 20px;
-	
 }
 
 .part:nth-child(11) h2 {
@@ -520,13 +516,61 @@ footer {
 	width: 100px;
 }
 
+.part:nth-child(11) p {
+    text-align: center;
+}
+
+.part:nth-child(11) ul {
+    list-style-type: none;
+}
+
+.part:nth-child(11) li {
+    text-align: center;
+    padding: 10px;
+}
+
+.part:nth-child(11) a {
+    text-decoration: none;
+    color: black;
+}
+
 /*-----footer------*/
+
+
+footer {
+	width: 100%;
+	height: 400px;
+	background-color: green;	
+}
+
+footer h3 {
+    margin: 0 auto ;
+    text-align: center;
+    padding: 20px;
+}
 
 footer p {
 	margin: 0 auto;
 	text-align: center;
+    width: 60%; 
 }
 
+footer ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+/*end hanna 13/10*/
 
 .hail img:nth-child(1) {top:0%; left: -121%;  margin-top: -50%;}
 
