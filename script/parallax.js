@@ -32,29 +32,21 @@ parallaxwar();
 
 
 //hail
-var hail = document.getElementsByClassName('hej')[0];
-var hail2 = document.getElementsByClassName('hej2')[0];
-var hail3 = document.getElementsByClassName('hej3')[0];
-var hail4 = document.getElementsByClassName('hej4')[0];
-var hail5 = document.getElementsByClassName('hej5')[0];
-var hail6 = document.getElementsByClassName('hej6')[0];
-var hail7 = document.getElementsByClassName('hej7')[0];
-var hail8 = document.getElementsByClassName('hej8')[0];
+var hail1 = document.getElementsByClassName('hail1')[0];
 
 
-var parallax2 = function () {
+
+
+
+var parallaxhail = function () {
     var scroll = window.scrollY;
     var offset = scroll * 0.25;
-    hail.style.transform = 'translate(' + offset + 'px,' + offset + 'px)';
-    hail2.style.transform = 'translate(' + offset  + 'px,' + offset + 'px)';
-    hail3.style.transform = 'translate(' + offset  + 'px,' + offset + 'px)';
-    hail4.style.transform = 'translate(' + offset  + 'px,' + offset + 'px)';
-    hail5.style.transform = 'translate(' + offset  + 'px,' + offset + 'px)';
-    hail6.style.transform = 'translate(' + offset  + 'px,' + offset + 'px)';
-    hail7.style.transform = 'translate(' + offset  + 'px,' + offset + 'px)';
-    hail8.style.transform = 'translate(' + offset  + 'px,' + offset + 'px)';
+    hail1.style.transform = 'translate(' + offset + 'px,' + offset + 'px)';
+
+
     
-  window.requestAnimationFrame(parallax2);
+    
+  window.requestAnimationFrame(parallaxhail);
 }
 
-parallax2();
+parallaxhail();

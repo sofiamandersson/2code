@@ -82,6 +82,9 @@ h1{
 
 /*-------Hail---------*/
 
+.hail img:nth-child(1) {top: -30%;left: -200%; width: 3000px;}
+
+
 
 
 
@@ -539,15 +542,7 @@ footer p {
 
 /*------parallax-----*/
 
-.hail img:nth-child(1) {top:0%; left: -121%;  margin-top: -50%;}
 
-.hail img:nth-child(2) {top:0%; left: -90%; margin-top: -50%;}
-
-.hail img:nth-child(3) {top:0%; left: -59%; margin-top: -50%;}
-
-.hail img:nth-child(4) {top:0%; left: -28%; margin-top: -50%;}
-
-.hail img:nth-child(5) {top:0%; left: 3%; margin-top: -50%; }
 
 
 

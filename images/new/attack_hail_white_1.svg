@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2148.4 1611.3" style="enable-background:new 0 0 2148.4 1611.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:none;stroke:#F2F9F8;stroke-width:8;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:url(#SVGID_1_);}
+	.st3{fill:url(#);}
+</style>
+<pattern  y="843.3" width="400" height="420" patternUnits="userSpaceOnUse" id="New_Pattern" viewBox="0 -431 400 420" style="overflow:visible;">
+	<g>
+		<polygon class="st0" points="0,-431 400,-431 400,-11 0,-11 		"/>
+		<g>
+			<line class="st1" x1="54" y1="-16" x2="54" y2="-4"/>
+			<line class="st1" x1="130" y1="-62" x2="130" y2="-50"/>
+			<line class="st1" x1="306" y1="-62" x2="306" y2="-50"/>
+		</g>
+		<g>
+			<line class="st1" x1="54" y1="-226" x2="54" y2="-214"/>
+			<line class="st1" x1="130" y1="-272" x2="130" y2="-260"/>
+			<line class="st1" x1="306" y1="-272" x2="306" y2="-260"/>
+			<line class="st1" x1="94" y1="-182" x2="94" y2="-170"/>
+			<line class="st1" x1="270" y1="-182" x2="270" y2="-170"/>
+			<line class="st1" x1="346" y1="-182" x2="346" y2="-170"/>
+		</g>
+		<g>
+			<line class="st1" x1="54" y1="-436" x2="54" y2="-424"/>
+			<line class="st1" x1="94" y1="-392" x2="94" y2="-380"/>
+			<line class="st1" x1="270" y1="-392" x2="270" y2="-380"/>
+			<line class="st1" x1="346" y1="-392" x2="346" y2="-380"/>
+		</g>
+	</g>
+</pattern>
+<g id="Layer_4">
+	<pattern  id="SVGID_1_" xlink:href="#New_Pattern" patternTransform="matrix(1 0 0 1 -1999.4048 0.3036)">
+	</pattern>
+	<rect x="0.6" y="0.3" class="st2" width="2148.4" height="1611.3"/>
+</g>
+<g id="hail_diagonal">
+</g>
+<g id="Layer_10">
+</g>
+</svg>
