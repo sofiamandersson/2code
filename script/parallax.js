@@ -29,24 +29,30 @@ var parallaxwar = function () {
 
 parallaxwar();
 
-
-
 //hail
 var hail1 = document.getElementsByClassName('hail1')[0];
-
-
-
-
 
 var parallaxhail = function () {
     var scroll = window.scrollY;
     var offset = scroll * 0.25;
     hail1.style.transform = 'translate(' + offset + 'px,' + offset + 'px)';
 
-
-    
-    
   window.requestAnimationFrame(parallaxhail);
 }
 
 parallaxhail();
+
+
+var shore1 = document.getElementsByClassName('shore1')[0];
+var shore2 = document.getElementsByClassName('shore2')[0];
+
+var parallaxshore = function () {
+    var scroll = window.scrollY;
+    var offset = scroll * 0.3;
+    shore1.style.transform = 'translateY(' + offset  + 'px)';
+    shore2.style.transform = 'translateY(' + offset + 'px)';
+
+  window.requestAnimationFrame(parallaxshore);
+}
+
+parallaxshore();

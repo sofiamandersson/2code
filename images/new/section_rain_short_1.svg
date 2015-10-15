@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2148.4 1611.3" style="enable-background:new 0 0 2148.4 1611.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:none;stroke:#1C88A5;stroke-width:8;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:url(#);}
+	.st3{display:none;}
+	.st4{display:inline;fill:none;stroke:#1C88A5;stroke-width:8;stroke-linecap:round;stroke-miterlimit:10;}
+	.st5{fill:url(#SVGID_1_);}
+	.st6{fill:url(#SVGID_2_);}
+	.st7{fill:url(#SVGID_3_);}
+	.st8{fill:url(#SVGID_4_);}
+</style>
+<pattern  x="2286" y="-884.7" width="600" height="500" patternUnits="userSpaceOnUse" id="Rain" viewBox="0 -500 600 500" style="overflow:visible;">
+	<g>
+		<polygon class="st0" points="0,-500 600,-500 600,0 0,0 		"/>
+		<g>
+			<line class="st1" x1="512" y1="-209" x2="512" y2="-159"/>
+			<line class="st1" x1="573" y1="-91" x2="573" y2="-41"/>
+		</g>
+		<g>
+			<line class="st1" x1="212" y1="-84" x2="212" y2="-34"/>
+			<line class="st1" x1="327" y1="-84" x2="327" y2="-34"/>
+		</g>
+		<g>
+			<line class="st1" x1="27" y1="-209" x2="27" y2="-159"/>
+			<line class="st1" x1="88" y1="-91" x2="88" y2="-41"/>
+		</g>
+		<g>
+			<line class="st1" x1="512" y1="-459" x2="512" y2="-409"/>
+			<line class="st1" x1="573" y1="-341" x2="573" y2="-291"/>
+		</g>
+		<g>
+			<line class="st1" x1="212" y1="-334" x2="212" y2="-284"/>
+			<line class="st1" x1="327" y1="-334" x2="327" y2="-284"/>
+			<line class="st1" x1="273" y1="-216" x2="273" y2="-166"/>
+			<line class="st1" x1="388" y1="-216" x2="388" y2="-166"/>
+		</g>
+		<g>
+			<line class="st1" x1="27" y1="-459" x2="27" y2="-409"/>
+			<line class="st1" x1="88" y1="-341" x2="88" y2="-291"/>
+		</g>
+		<g>
+			<line class="st1" x1="273" y1="-466" x2="273" y2="-416"/>
+			<line class="st1" x1="388" y1="-466" x2="388" y2="-416"/>
+		</g>
+	</g>
+</pattern>
+<g id="Layer_4">
+</g>
+<g id="Layer_6">
+</g>
+<g id="Layer_5" class="st3">
+	<line class="st4" x1="453" y1="72.3" x2="453" y2="122.3"/>
+	<line class="st4" x1="568" y1="72.3" x2="568" y2="122.3"/>
+	<line class="st4" x1="514" y1="190.3" x2="514" y2="240.3"/>
+	<line class="st4" x1="629" y1="190.3" x2="629" y2="240.3"/>
+</g>
+<g id="rain">
+	<pattern  id="SVGID_1_" xlink:href="#Rain" patternTransform="matrix(1 0 0 1 1800.5952 0.3036)">
+	</pattern>
+	<rect x="1.2" y="0.3" class="st5" width="2140.7" height="1611.3"/>
+</g>
+<g id="Layer_8">
+</g>
+<g id="hail_diagonal">
+</g>
+<g id="Layer_10">
+</g>
+</svg>

@@ -48,7 +48,7 @@ h1{
 
 /*---------------------------images in the background--------------------------*/
 
-.clouds_regular img, .cloud_hail img, .hail img, .cloud_worried img, .house_row img, .firsttown img, .firsttown img, .waves img, .mountain img, .trees_row img, .cloud_stretch img, .trees_part1 img, .trees_part2 img, .cottage img, .town img, .cloud_boat img {
+.clouds_regular img, .cloud_hail img, .hail img, .cloud_worried img, .house_row img, .firsttown img, .firsttown img, .shore img, .waves img, .mountain img, .trees_row img, .cloud_stretch img, .trees_part1 img, .trees_part2 img, .cottage img, .town img, .cloud_boat img {
     position: absolute;
 }
 
@@ -185,6 +185,13 @@ h1{
 .firsttown img:nth-child(35){top:45%;right:80%;}
 
 .firsttown img:nth-child(36){top:45%;left:70%;}
+
+
+
+
+.shore img:nth-child(1){bottom:65%; left: 0; width: 100%;}
+
+.shore img:nth-child(2){bottom:62%; left: 0; width: 100%;}
 
 /*-----Waves-----*/
 
@@ -409,7 +416,7 @@ h1{
 
 .part:nth-child(3) {
 	width: 100%;
-	height: 5000px;
+	height: 3000px;
 	background-color: #eda574;
 	/*
 	background-image: -webkit-linear-gradient(bottom, rgb(7, 66, 95) 10%, rgb(214, 191, 128) 60%);
@@ -422,8 +429,8 @@ h1{
 
 .part:nth-child(4) {
     width: 100%;
-    height: 600px;
-    background-color: #31aa9b;
+    height: 1500px;
+    background-color: #18717a;
     /*
     background-image: -webkit-linear-gradient(bottom, rgb(107, 185, 209) 1%, rgb(7, 66, 95) 100%);
     background-image: -moz-linear-gradient(bottom, rgb(107, 185, 209) 1%, rgb(7, 66, 95) 100%);
@@ -433,20 +440,8 @@ h1{
     */
 }
 
-.part:nth-child(5) {
-    width: 100%;
-    height: 1500px;
-    background-color:#18717a ;
-    /*
-    background-image: -webkit-linear-gradient(bottom, rgb(214, 191, 128) 6%, rgb(107, 185, 209) 60%);
-    background-image: -moz-linear-gradient(bottom, rgb(214, 191, 128) 6%, rgb(107, 185, 209) 60%);
-    background-image: -o-linear-gradient(bottom, rgb(214, 191, 128) 6%, rgb(107, 185, 209) 60%);
-    background-image: -ms-linear-gradient(bottom, rgb(214, 191, 128) 6%, rgb(107, 185, 209) 60%);
-    background-image: linear-gradient(bottom, rgb(214, 191, 128) 6%, rgb(107, 185, 209) 60%);
-    */
-}
 
-.part:nth-child(6){
+.part:nth-child(5){
    width: 100%;
    height: 900px;
    background-color: #eda574 ;
@@ -459,7 +454,7 @@ h1{
    */
 }
 
-.part:nth-child(7) {
+.part:nth-child(6) {
    width: 100%;
    height: 2000px;
    background-color: #18717a ;
@@ -472,7 +467,7 @@ h1{
    */
 }
 
-.part:nth-child(8) {
+.part:nth-child(7) {
    width: 100%;
    height: 1500px;
    background-color: #18717a ;
@@ -485,7 +480,7 @@ h1{
     */
 }
 
-.part:nth-child(9) {
+.part:nth-child(8) {
    width: 100%;
    height: 1200px;
    background-color: #18717a ;
@@ -498,7 +493,7 @@ h1{
     */
 }
 
-.part:nth-child(10) {
+.part:nth-child(9) {
    width: 100%;
    height: 2000px;
    background-color: #5b463b ;
@@ -511,7 +506,7 @@ h1{
     */
 }
 
-.part:nth-child(11) {
+.part:nth-child(10) {
    width: 100%;
    height: 2000px;
    background-color: #31aa9b ;
@@ -524,7 +519,7 @@ h1{
     */
 }
 
-.part:nth-child(12) {
+.part:nth-child(11) {
    width: 100%;
    height: 600px;
    background-color: #4accc2 ;
@@ -545,14 +540,14 @@ footer {
 
 /*----text end-----*/
 
-.part:nth-child(12) article {
+.part:nth-child(11) article {
 	margin: 0 auto;
 	width: 600px;
 	padding: 20px;
 	
 }
 
-.part:nth-child(12) h2 {
+.part:nth-child(11) h2 {
 	margin:0 auto;
 	width: 100px;
 }
