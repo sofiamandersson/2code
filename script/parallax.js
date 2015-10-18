@@ -56,6 +56,3 @@ var parallaxshore = function () {
 }
 
 parallaxshore();
-
-
- new WOW().init();
