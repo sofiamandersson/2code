@@ -35,7 +35,7 @@ var hail1 = document.getElementsByClassName('hail1')[0];
 var parallaxhail = function () {
     var scroll = window.scrollY;
     var offset = scroll * 0.25;
-    hail1.style.transform = 'translate(' + offset + 'px,' + offset + 'px)';
+    hail1.style.transform = 'translate(' + (offset * 2) + 'px,' + offset + 'px)';
 
   window.requestAnimationFrame(parallaxhail);
 }
@@ -56,3 +56,6 @@ var parallaxshore = function () {
 }
 
 parallaxshore();
+
+
+ new WOW().init();
