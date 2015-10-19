@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
+	color: #fff;
 }
 
 .wrap {
@@ -14,10 +15,13 @@ body {
 
 h1{
 	margin:0 auto;
-	width: 100px;
+	width: 100%;
 	text-align: center;	
+	padding-top: 5%;
+	font-size: 4em;
 }
 
+a {color: #fff;}
 /*-----z-index------*/
 
 .cloud {z-index: 50;}
@@ -37,19 +41,18 @@ h1{
 /*-------the cloud-----*/
 
 .cloud {
-	margin: 0 auto;
-	margin-left: -50px;
-	top: 300px;
+	margin-left: -100px;
+	top: 35%;
 	left: 50%;
 	position: fixed;
-    width: 150px;
+    width: 200px;
 }
 
 
 
 /*---------------------------images in the background--------------------------*/
 
-.clouds_regular img, .cloud_hail img, .hail img, .cloud_worried img, .house_row img, .house_row2 img, .firsttown img, .firsttown img, .shore img, .waves img, .mountain img, .trees_row img, .cloud_stretch img, .trees_part1 img, .trees_part2 img, .cottage img, .town img, .cloud_boat img, .gathering img {
+.clouds_regular img, .cloud_hail img, .hail img, .cloud_worried img, .house_row img, .house_row2 img, .firsttown img, .firsttown img, .shore img, .waves img, .mountain img, .trees_row img, .cloud_stretch img, .trees_part1 img, .trees_part2 img, .cottage img, .town img, .cloud_boat img, .secondtown img, .gathering img {
     position: absolute;
 }
 
@@ -120,21 +123,21 @@ h1{
 
 /*----First town----*/
 
-.firsttown img:nth-child(1){top:5%; left:80%; width: 20%;}
+.firsttown img:nth-child(1){top:10%; right:25%; width: 15%;}
 
-.firsttown img:nth-child(2){top:5%; width: 20%;}
+.firsttown img:nth-child(2){top:10%; right: 5%; width: 15%;}
 
-.firsttown img:nth-child(3){top:10%;left:80%; width: 20%;}
+.firsttown img:nth-child(3){top:15%; right:0; width: 90%;}
 
-.firsttown img:nth-child(4){top:10%; width: 20%;}
+.firsttown img:nth-child(4){top:9%; width: 30%;}
 
-.firsttown img:nth-child(5){top:15%;left:80%; width: 20%;}
+.firsttown img:nth-child(5){top:5%; right:10%; width: 30%;}
 
-.firsttown img:nth-child(6){top:15%; width: 20%;}
+.firsttown img:nth-child(6){top:20%; left: 17%; width: 15%;}
 
-.firsttown img:nth-child(7){top:20%; width: 20%;}
+.firsttown img:nth-child(7){top:20%; left: 34%;width: 15%;}
 
-.firsttown img:nth-child(8){top:20%;left:80%; width: 20%;}
+.firsttown img:nth-child(8){top:20%; right:10%; width: 30%;}
 
 .firsttown img:nth-child(9){top:25%; width: 20%;}
 
@@ -282,29 +285,27 @@ h1{
 
 .trees_part1 img:nth-child(14) {top: 13%;left: 48%; width: 20%;}
 
-/*-------Majas trees-----------*/ /*ändrat Hanna 9/10*/
+/*----*/
 
-.trees_part2 img:nth-child(1){top:2%;left:15%;}
+.secondtown img:nth-child(1){top:16%; right:25%; width: 15%;}
 
-.trees_part2 img:nth-child(2){top:40%;left:55%;}
+.secondtown img:nth-child(2){top:16%; right: 5%; width: 15%;}
 
-.trees_part2 img:nth-child(3){top:10%;left:80%;}
+.secondtown img:nth-child(3){top:27%; right:0; width: 90%;}
 
-.trees_part2 img:nth-child(4){top:60%;left:5%;}
+.secondtown img:nth-child(4){top:9%; width: 30%;}
 
-/*-------Majas houses-----*/ /*ändrat Hanna 9/10*/
+.secondtown img:nth-child(5){top:0; right:10%; width: 30%;}
 
-.cottage img:nth-child(1){top:50%;left:30%;}
+.secondtown img:nth-child(6){top:43%; left: 17%; width: 15%;}
 
-.cottage img:nth-child(2){top:15%;left:60%; }
+.secondtown img:nth-child(7){top:43%; left: 34%;width: 15%;}
 
-.cottage img:nth-child(3){top:36%;left:10%;	}
+.secondtown img:nth-child(8){top:40%; right:10%; width: 30%;}
 
-.cottage img:nth-child(4){top:70%;left:80%;}
+.secondtown img:nth-child(9){top:60%; right: 29%;width: 20%;}
 
-.cottage img:nth-child(5){top: 28%;left: 38%}
-
-.cottage img:nth-child(6){top: 47%;left: 87%}
+.secondtown img:nth-child(10){top: 62%; right:10%; width: 20%;}
 
 /*-----gathering----*/
 
@@ -537,7 +538,6 @@ footer li {
 
 footer a {
     text-decoration: none;
-    color: black;
     padding: 10px;
 }
 

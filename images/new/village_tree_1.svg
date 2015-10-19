@@ -1,39 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 156 94.5" style="enable-background:new 0 0 156 94.5;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#4ACCC2;}
-	.st1{fill:#18717A;}
-	.st2{fill:none;stroke:#EDA574;stroke-width:20;stroke-miterlimit:10;}
-	.st3{fill:#1A7F84;}
-	.st4{fill:#84D3C9;}
-	.st5{fill:#5B463B;}
-	.st6{fill:#EA9C68;}
-	.st7{fill:#31AA9B;}
-	.st8{fill:#176266;}
-	.st9{fill:#1B8989;}
-	.st10{fill:#EFEFEF;}
-	.st11{fill:#1C88A5;}
-	.st12{fill:#1B7989;}
-	.st13{fill:#EDA574;}
-	.st14{fill:#F2F9F8;}
-</style>
+<svg version="1.1" id="Lager_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-123.7 288.9 94.5 59.6" enable-background="new -123.7 288.9 94.5 59.6" xml:space="preserve">
 <g id="Layer_3">
 </g>
-<g id="Layer_1">
-	<g id="Layer_4">
-	</g>
-	<g>
-		<path class="st7" d="M46.9,73.8H21.1c-0.3,0-0.6-0.3-0.5-0.7l12.6-51.4c0.1-0.5,0.9-0.5,1,0l13.2,51.4
-			C47.5,73.5,47.2,73.8,46.9,73.8z"/>
-	</g>
-	<g>
-		<path class="st6" d="M94.7,56c0.5,2.1-0.8,4-3,4H76.2c-2.2,0-3.6-1.8-3-4l9.6-39c0.5-2.1,1.4-2.1,1.9,0L94.7,56z"/>
-	</g>
-	<g>
-		<path class="st7" d="M141,70.9c0.5,2.1-0.8,4.1-3,4.1h-19.2c-2.2,0-3.6-1.9-3-4.1l11.4-46.5c0.5-2.1,1.4-2.1,1.9,0L141,70.9z"/>
-	</g>
+<g id="Layer_4">
 </g>
 <g id="Houses">
 </g>
@@ -45,6 +16,24 @@
 </g>
 <g id="Layer_8">
 </g>
-<g id="Layer_2">
+<g id="light_green">
+	<g>
+		<path fill="#31AA9B" d="M-32.7,346.7H-60c-1.2,0-2-1.1-1.7-2.2l13.3-54.2c0.5-1.9,3.1-1.9,3.6,0l13.9,54.2
+			C-30.7,345.6-31.5,346.7-32.7,346.7z"/>
+	</g>
+</g>
+<g id="tree_row_front">
+</g>
+<g id="light_green_1_">
+	<g>
+		<path fill="#31AA9B" d="M-94.6,348.5h-27.3c-1.2,0-2-1.1-1.7-2.2l13.3-54.2c0.5-1.9,3.1-1.9,3.6,0l13.9,54.2
+			C-92.6,347.4-93.5,348.5-94.6,348.5z"/>
+	</g>
+</g>
+<g id="light_green_2_">
+	<g>
+		<path fill="#EA9C68" d="M-63.1,332.6h-20.6c-0.9,0-1.5-0.8-1.3-1.7l10-40.9c0.4-1.4,2.3-1.4,2.7,0l10.5,40.9
+			C-61.6,331.8-62.2,332.6-63.1,332.6z"/>
+	</g>
 </g>
 </svg>
