@@ -195,52 +195,49 @@ h1{
 
 /*-----Waves-----*/
 
+.waves {
+	transform: scale(0.6)
+}
+
+
 .waves img:nth-child(1) {
 	top: 0%;
 	left: 0%;
-	opacity: 0.4;
 }
 
 .waves img:nth-child(2) {
 	top: 20%;
 	left: 15%;
-	opacity: 0.4;
 }
 
 .waves img:nth-child(3) {
 	top: 45%;
 	left: 0%;
-	opacity: 0.4;
 }
 
 .waves img:nth-child(4) {
 	top: 70%;
 	left: 15%;
-	opacity: 0.4;
 }
 
 .waves img:nth-child(5) {
 	top: 0%;
 	left: 65%;
-	opacity: 0.4;
 }
 
 .waves img:nth-child(6) {
 	top: 20%;
 	left: 70%;
-	opacity: 0.6;
 }
 
 .waves img:nth-child(7) {
 	top: 45%;
 	left: 70%;
-	opacity: 0.4;
 }
 
 .waves img:nth-child(8) {
 	top: 70%;
 	left: 70%;
-	opacity: 0.4;
 }
 
 /*--Cloud boat--*/
@@ -381,7 +378,7 @@ h1{
 .part:nth-child(3) {
 	width: 100%;
 	height: 3000px;
-	background-color: #eda574;
+	background-color: #4accc2;
 	/*
 	background-image: -webkit-linear-gradient(bottom, rgb(7, 66, 95) 10%, rgb(214, 191, 128) 60%);
 	background-image: -moz-linear-gradient(bottom, rgb(7, 66, 95) 10%, rgb(214, 191, 128) 60%);
@@ -408,7 +405,7 @@ h1{
 .part:nth-child(5){
    width: 100%;
    height: 900px;
-   background-color: #eda574 ;
+   background-color: #1c88a5;
    /*
    background-image: -webkit-linear-gradient(bottom, rgb(214, 191, 128) 6%, rgb(214, 191, 128) 60%);
    background-image: -moz-linear-gradient(bottom, rgb(214, 191, 128) 6%, rgb(214, 191, 128) 60%);
@@ -460,7 +457,7 @@ h1{
 .part:nth-child(9) {
    width: 100%;
    height: 1500px;
-   background-color: #5b463b ;
+   background-color: #31aa9b;
     /*
    background-image: -webkit-linear-gradient(bottom, rgb(107, 185, 209) 50%, rgb(131, 209, 120) 100%);
     background-image: -moz-linear-gradient(bottom, rgb(107, 185, 209) 100%, rgb(131, 209, 120) 100%);
