@@ -228,8 +228,7 @@ a {color: #fff;}
 }
 
 
-
-/*-------mountain------*/ /*FLYTTAD Hanna 9/10*/
+/*-------mountain------*/
 
 .mountain img:nth-child(1){
 	bottom: -7%;
@@ -247,6 +246,7 @@ a {color: #fff;}
 
 
 /*---cloud stretch---*/
+
 .cloud_stretch img:nth-child(1) {top: 18%;left: 10%; width: 40%;}
 
 .cloud_stretch img:nth-child(2) {top: 10%;left: 65%; width: 40%;}
@@ -254,6 +254,7 @@ a {color: #fff;}
 .cloud_stretch img:nth-child(3) {top: 50%;left: 50%; width: 40%;}
 
 .cloud_stretch img:nth-child(4) {top: 80%;left: 27%; width: 40%;}
+
 
 /*---------trees-------*/
 
