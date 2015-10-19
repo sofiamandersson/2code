@@ -406,7 +406,7 @@ h1{
 .part:nth-child(5){
    width: 100%;
    height: 900px;
-   background-color: #1c88a5;
+   background-color: #ea9c68;
    /*
    background-image: -webkit-linear-gradient(bottom, rgb(214, 191, 128) 6%, rgb(214, 191, 128) 60%);
    background-image: -moz-linear-gradient(bottom, rgb(214, 191, 128) 6%, rgb(214, 191, 128) 60%);
@@ -484,7 +484,7 @@ h1{
 .part:nth-child(11) {
    width: 100%;
    height: 600px;
-   background-color: #4accc2 ;
+   background-color: #ea9c68 ;
    /*
     background-image: -webkit-linear-gradient(bottom, rgb(107, 185, 209) 100%,rgb(107, 185, 209) 100%);
     background-image: -moz-linear-gradient(bottom, rgb(107, 185, 209) 100%, rgb(107, 185, 209) 100%);
@@ -526,7 +526,7 @@ article {
 
 footer {
 	height: 350px;
-	background-color: green;
+	background-color: #ea9c68;
     position: relative;
 }
 
@@ -618,11 +618,11 @@ footer a {
 
 @font-face {
     font-family: 'si';
-    src: url('../icons/socicon-1.3/socicon.eot');
-    src: url('../icons/socicon-1.3/socicon.eot?#iefix') format('embedded-opentype'),
-         url('../icons/socicon-1.3/socicon.woff') format('woff'),
-         url('../icons/socicon-1.3/socicon.ttf') format('truetype'),
-         url('../icons/socicon-1.3/socicon.svg#icomoonregular') format('svg');
+    src: url('icons/socicon.eot');
+    src: url('icons/socicon.eot?#iefix') format('embedded-opentype'),
+         url('icons/socicon.woff') format('woff'),
+         url('icons/socicon.ttf') format('truetype'),
+         url('icons/socicon.svg#icomoonregular') format('svg');
     font-weight: normal;
     font-style: normal;    
 }
@@ -630,7 +630,7 @@ footer a {
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     @font-face {
         font-family:si;
-        src: url(PATH_TO/socicon.svg) format(svg);
+        src: url("icons/socicon.svg") format(svg);
     }
 }
 
