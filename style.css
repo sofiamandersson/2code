@@ -22,7 +22,7 @@ h1{
 
 .cloud {z-index: 50;}
 
-.house_row img:nth-child(1){z-index: 100;}
+.house_row img:nth-child(1), .house_row2 img:nth-child(1){z-index: 100;}
 
 .mountain img:nth-child(1){z-index: 100;}
 
@@ -49,7 +49,7 @@ h1{
 
 /*---------------------------images in the background--------------------------*/
 
-.clouds_regular img, .cloud_hail img, .hail img, .cloud_worried img, .house_row img, .firsttown img, .firsttown img, .shore img, .waves img, .mountain img, .trees_row img, .cloud_stretch img, .trees_part1 img, .trees_part2 img, .cottage img, .town img, .cloud_boat img, .gathering img {
+.clouds_regular img, .cloud_hail img, .hail img, .cloud_worried img, .house_row img, .house_row2 img, .firsttown img, .firsttown img, .shore img, .waves img, .mountain img, .trees_row img, .cloud_stretch img, .trees_part1 img, .trees_part2 img, .cottage img, .town img, .cloud_boat img, .gathering img {
     position: absolute;
 }
 
@@ -58,28 +58,28 @@ h1{
 
 .clouds_regular img:nth-child(1){
 	top: 50%;
-	left: 70%; 
-	display: block;
+	right: 0; 
+	width: 40%;
 }
 
 .clouds_regular img:nth-child(2){
 	top: 400px;
 	left: 0;
-	height: 200px;
 	opacity: 0.5;
+	width: 40%;
 }
 
-.clouds_regular img:nth-child(3){top: 20%;right: 0;}
+.clouds_regular img:nth-child(3){top: 20%;right: 0; width: 40%;}
 
-.clouds_regular img:nth-child(4){top: 20%;left: 10%;}
+.clouds_regular img:nth-child(4){top: 20%;left: 10%; width: 40%;}
 
 /*----clouds hail----*/
 
-.cloud_hail img:nth-child(1) {top: 10%;left: 60%;}
+.cloud_hail img:nth-child(1) {top: 10%;left: 60%; width: 40%;}
 
-.cloud_hail img:nth-child(2) {top: 25%;left: 20%;}
+.cloud_hail img:nth-child(2) {top: 25%;left: 20%; width: 40%;}
 
-.cloud_hail img:nth-child(3) {top: 5%;left: 40%;}
+.cloud_hail img:nth-child(3) {top: 5%;left: 40%; width: 40%;}
 
 /*-------Hail---------*/
 
@@ -92,11 +92,11 @@ h1{
 
 /*---------clouds worried-------*/
 
-.cloud_worried img:nth-child(1) {top: 55%;left: 60%;}
+.cloud_worried img:nth-child(1) {top: 55%;left: 60%; width: 40%;}
 
-.cloud_worried img:nth-child(2) {top: 40%;left: 5%;}
+.cloud_worried img:nth-child(2) {top: 40%;left: 5%; width: 40%;}
 
-.cloud_worried img:nth-child(3) {top: 20%;left: -40%;}
+.cloud_worried img:nth-child(3) {top: 20%;left: -40%; width: 40%;}
 
 .cloud_worried img:nth-child(4) {
     transform: scale(0.6);
@@ -107,85 +107,55 @@ h1{
 /*---House row---*/
 
 .house_row img:nth-child(1) {
-	bottom: 0;
+	bottom: -1%;
+	left: 0;
+	width: 100%;
+}
+
+.house_row2 img:nth-child(1) {
+	top: -5%;
 	left: 0;
 	width: 100%;
 }
 
 /*----First town----*/
 
-.firsttown img:nth-child(1){top:5%; left:80%;}
+.firsttown img:nth-child(1){top:5%; left:80%; width: 20%;}
 
-.firsttown img:nth-child(2){top:5%;}
+.firsttown img:nth-child(2){top:5%; width: 20%;}
 
-.firsttown img:nth-child(3){top:10%;left:80%;}
+.firsttown img:nth-child(3){top:10%;left:80%; width: 20%;}
 
-.firsttown img:nth-child(4){top:10%;}
+.firsttown img:nth-child(4){top:10%; width: 20%;}
 
-.firsttown img:nth-child(5){top:15%;left:80%;}
+.firsttown img:nth-child(5){top:15%;left:80%; width: 20%;}
 
-.firsttown img:nth-child(6){top:15%;}
+.firsttown img:nth-child(6){top:15%; width: 20%;}
 
-.firsttown img:nth-child(7){top:20%;}
+.firsttown img:nth-child(7){top:20%; width: 20%;}
 
-.firsttown img:nth-child(8){top:20%;left:80%;}
+.firsttown img:nth-child(8){top:20%;left:80%; width: 20%;}
 
-.firsttown img:nth-child(9){top:25%;}
+.firsttown img:nth-child(9){top:25%; width: 20%;}
 
-.firsttown img:nth-child(10){top:25%;left:80%;}
+.firsttown img:nth-child(10){top:25%;left:80%; width: 20%;}
 
-.firsttown img:nth-child(11){top:30%;}
+.firsttown img:nth-child(11){top:30%; width: 20%;}
 
-.firsttown img:nth-child(12){top:30%;left:80%;}
+.firsttown img:nth-child(12){top:30%;left:80%; width: 20%;}
 
-.firsttown img:nth-child(13){top:35%;}
+.firsttown img:nth-child(13){top:35%; width: 20%;}
 
-.firsttown img:nth-child(14){top:35%;left:80%;}
+.firsttown img:nth-child(14){top:35%;left:80%; width: 20%;}
 
-.firsttown img:nth-child(15){top:40%;}
+.firsttown img:nth-child(15){top:40%; width: 20%;}
 
-.firsttown img:nth-child(16){top:40%;left:80%;}
+.firsttown img:nth-child(16){top:40%;left:80%; width: 20%;}
 
-.firsttown img:nth-child(17){top:45%;}
+.firsttown img:nth-child(17){top:45%; width: 20%;}
 
-.firsttown img:nth-child(18){top:45%;left:80%;}
+.firsttown img:nth-child(18){top:45%;left:80%; width: 20%;}
 
-/*---------ROW2-------*/
-.firsttown img:nth-child(19){top:5%;right:0%;}
-
-.firsttown img:nth-child(20){top:5%;right:80%;}
-
-.firsttown img:nth-child(21){top:10%;right:0%;}
-
-.firsttown img:nth-child(22){top:10%;right:80%;}
-
-.firsttown img:nth-child(23){top:15%;right:0%;}
-
-.firsttown img:nth-child(24){top:15%;right:80%;}
-
-.firsttown img:nth-child(25){top:20%;right:80%;}
-
-.firsttown img:nth-child(26){top:20%;left:70%;}
-
-.firsttown img:nth-child(27){top:25%;right:80%;}
-
-.firsttown img:nth-child(28){top:25%;left:70%;}
-
-.firsttown img:nth-child(29){top:30%;right:80%;}
-
-.firsttown img:nth-child(30){top:30%;left:70%;}
-
-.firsttown img:nth-child(31){top:35%;right:80%;}
-
-.firsttown img:nth-child(32){top:35%;left:70%;}
-
-.firsttown img:nth-child(33){top:40%;right:80%;}
-
-.firsttown img:nth-child(34){top:40%;left:70%;}
-
-.firsttown img:nth-child(35){top:45%;right:80%;}
-
-.firsttown img:nth-child(36){top:45%;left:70%;}
 
 
 
@@ -251,6 +221,7 @@ h1{
 .cloud_boat img:nth-child(1){
 	top: 30%;
 	left: 30%;
+	width: 50%;
 }
 
 
@@ -273,13 +244,13 @@ h1{
 
 
 /*---cloud stretch---*/
-.cloud_stretch img:nth-child(1) {top: 18%;left: 10%;}
+.cloud_stretch img:nth-child(1) {top: 18%;left: 10%; width: 40%;}
 
-.cloud_stretch img:nth-child(2) {top: 10%;left: 65%;}
+.cloud_stretch img:nth-child(2) {top: 10%;left: 65%; width: 40%;}
 
-.cloud_stretch img:nth-child(3) {top: 50%;left: 50%;}
+.cloud_stretch img:nth-child(3) {top: 50%;left: 50%; width: 40%;}
 
-.cloud_stretch img:nth-child(4) {top: 80%;left: 27%;}
+.cloud_stretch img:nth-child(4) {top: 80%;left: 27%; width: 40%;}
 
 /*---------trees-------*/
 
