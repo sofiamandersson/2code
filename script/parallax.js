@@ -5,7 +5,7 @@ var coludsregular2 = document.getElementsByClassName('part1pase2')[0];
 var parallax = function () {
     var scroll = window.scrollY;
     var offset = scroll * 0.3;
-    coludsregular.style.transform = 'translateY(' + (offset * 1.5) + 'px)';
+    coludsregular.style.transform = 'translateY(' + offset + 'px)';
     coludsregular2.style.transform = 'translateY(' + offset + 'px)';
 
   window.requestAnimationFrame(parallax);
