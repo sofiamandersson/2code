@@ -199,17 +199,21 @@ a {color: #fff;}
 }
 .bushes img:nth-child(2){
     top: 52%;
-    margin-left: 80%;
+    left: 80%;
     width: 20%;
+}
+.bushes img:nth-child(4){
+  top:50%;
+  left:-10%;
 }
 .stones img:nth-child(1){
     top: 60%;
-    margin-left: 80%;
+    left: 95%;
     width: 5%;
 }
 .stones img:nth-child(2){
-    top: 15%;
-    left: 90%;
+    top: 25%;
+    left: 80%;
     width: 5%;
 }
 .stones img:nth-child(3){
@@ -218,8 +222,8 @@ a {color: #fff;}
     width: 7%;
 }
 .stones img:nth-child(4){
-    top: 80%;
-    left: 50%;
+    top: 70%;
+    left: 75%;
     width: 15%;
 }
 .stones img:nth-child(5){
@@ -236,6 +240,15 @@ a {color: #fff;}
     top: 65%;
     left: 8%;
     width: 8%;
+}
+.bushes img:nth-child(3){
+    top: 5%;
+    left: 40%;
+}
+.stones img:nth-child(8){
+    top:45%;
+    left:46%;
+    width: 15%;
 }
 /*--trees together--*/
 

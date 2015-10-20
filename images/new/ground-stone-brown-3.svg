@@ -4,6 +4,8 @@
 	 viewBox="0 0 1024 768" style="enable-background:new 0 0 1024 768;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#5B463B;}
+	.st1{fill:none;stroke:#EDA574;stroke-width:8;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#EDA574;stroke-width:5;stroke-linecap:round;stroke-miterlimit:10;}
 </style>
 <path class="st0" d="M679.5,447.9c0.6,5.7-3.8,10.6-9.5,10.6L504.7,459c-5.7,0-10.2-4.9-9.6-10.6c5.2-50.9,44.9-120.6,92.6-120.6
 	C635.3,327.8,674.5,397,679.5,447.9z"/>
@@ -13,4 +15,14 @@
 	S691.7,455.5,691.8,457.9z"/>
 <path class="st0" d="M697.7,450.2c0,0.2-0.1,0.3-0.3,0.3h-5.1c-0.2,0-0.3-0.1-0.3-0.3c0.2-1.5,1.4-3.6,2.9-3.6
 	C696.3,446.6,697.5,448.7,697.7,450.2z"/>
+<g>
+	<line class="st1" x1="505.7" y1="411.1" x2="497.3" y2="453.6"/>
+	<line class="st1" x1="517.5" y1="430.1" x2="498.1" y2="453.8"/>
+	<line class="st1" x1="484.6" y1="413.3" x2="497.1" y2="454.5"/>
+</g>
+<g>
+	<line class="st2" x1="419.4" y1="366.1" x2="414.1" y2="393.3"/>
+	<line class="st2" x1="427" y1="378.2" x2="414.6" y2="393.4"/>
+	<line class="st2" x1="405.9" y1="367.5" x2="413.9" y2="393.9"/>
+</g>
 </svg>
