@@ -145,11 +145,11 @@ a {color: #fff;}
 
 
 
-.shore img:nth-child(1){bottom:65%; left: 0; width: 100%;}
+.shore img:nth-child(1) {top: -30%;left: -30%; width: 1350px; height: 3500px;}
 
-.shore img:nth-child(2){bottom:62%; left: 0; width: 100%;}
+.shore img:nth-child(2){top: -20%;left: -30%; width: 1350px; height: 3500px;}
 
-/*-----Waves-----*/
+/*-----Waves-----*/ 
 
 
 
