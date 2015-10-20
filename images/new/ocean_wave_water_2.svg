@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 744 204" style="enable-background:new 0 0 744 204;" xml:space="preserve">
+	 viewBox="0 0 744 353.2" style="enable-background:new 0 0 744 353.2;" xml:space="preserve">
 <style type="text/css">
 	.st0{display:none;}
 	.st1{display:inline;fill:#17717A;}
@@ -10,18 +10,21 @@
 	.st4{display:inline;}
 	.st5{fill:#F2F9F8;}
 	.st6{display:inline;fill:#18717A;}
-	.st7{fill:none;stroke:#1B7989;stroke-width:8;stroke-linecap:round;stroke-miterlimit:10;}
-	.st8{fill:#EDA574;}
+	.st7{fill:#17717A;}
+	.st8{fill:none;stroke:#1B7989;stroke-width:8;stroke-linecap:round;stroke-miterlimit:10;}
+	.st9{fill:#EDA574;}
 </style>
 <g id="Layer_1" class="st0">
-	<rect x="-775.5" y="-33.3" class="st1" width="1551.8" height="577.9"/>
+	<rect x="1.5" y="-391.3" class="st1" width="1551.8" height="577.9"/>
 </g>
 <g id="Layer_3" class="st0">
 </g>
 <g id="wave_x5F_bubbles">
+	<path class="st7" d="M658.5,353.2H80.3V28.1L160,65.2c38.6,15,85.3,17.3,125,5.5l99-40.5c39.7-17.9,68.2-16.4,112.1-6.6l162.4,37.1
+		V353.2z"/>
+	<path class="st8" d="M80.3,26.9c0,0,85.1,50.5,150.7,50.5c80.7,0,138.4-60.6,203.4-60.6c79.6,0,168.2,42.8,224,44.8"/>
 </g>
 <g id="wave">
-	<path class="st7" d="M82.9,89.9c0,0,85.1,50.5,150.7,50.5c80.7,0,138.4-60.6,203.4-60.6c79.6,0,168.2,42.8,224,44.8"/>
 </g>
 <g id="fish">
 </g>

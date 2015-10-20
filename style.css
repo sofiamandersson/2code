@@ -170,21 +170,21 @@ a {color: #fff;}
 
 /*-----Waves-----*/
 
-.waves img:nth-child(1) {top: 20%;left: 15%;width: 100%;}
+.waves img:nth-child(1) {top: 22%;left: 5%;width: 70%;}
 
-.waves img:nth-child(2) {top: 20%;left: 15%;width: 40%;}
+.waves img:nth-child(2) {top: 10%;left: 5%;width: 70%;}
 
-.waves img:nth-child(3) {top: 45%;left: 0%;width: 40%;}
+.waves img:nth-child(3) {top: 40%;left: 0;width: 70%;}
 
-.waves img:nth-child(4) {top: 70%;left: 15%;width: 40%;}
+.waves img:nth-child(4) {top: 50%;right: 0;width: 70%;}
 
-.waves img:nth-child(5) {top: 0%;right: 0;width: 40%;}
+.waves img:nth-child(5) {top: 8%;right: 0;width: 70%;}
 
-.waves img:nth-child(6) {top: 20%;right: 0;width: 40%;}
+.waves img:nth-child(6) {top: 18%;right: 0;width: 70%;}
 
-.waves img:nth-child(7) {top: 45%;right: 0;width: 40%;}
+.waves img:nth-child(7) {top: 35%;right: 0;width: 70%;}
 
-.waves img:nth-child(8) {top: 70%; right: 0; width: 40%;}
+.waves img:nth-child(8) {top: 60%; left: 0; width: 70%;}
 
 /*-------mountain------*/
 

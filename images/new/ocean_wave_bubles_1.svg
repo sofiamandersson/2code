@@ -14,14 +14,19 @@
 	.st8{fill:#EDA574;}
 </style>
 <g id="Layer_1" class="st0">
-	<rect x="-775.5" y="-33.3" class="st1" width="1551.8" height="577.9"/>
+	<rect x="-787.5" y="-328.3" class="st1" width="1551.8" height="577.9"/>
 </g>
 <g id="Layer_3" class="st0">
 </g>
 <g id="wave_x5F_bubbles">
+	<g>
+		<path class="st7" d="M80.3,89.9c0,0,85.1,50.5,150.7,50.5c80.7,0,138.4-60.6,203.4-60.6c79.6,0,168.2,42.8,224,44.8"/>
+		<circle class="st5" cx="632.2" cy="110.1" r="6.8"/>
+		<circle class="st5" cx="597.5" cy="98.2" r="8.7"/>
+		<circle class="st5" cx="655" cy="89.5" r="8.7"/>
+	</g>
 </g>
 <g id="wave">
-	<path class="st7" d="M82.9,89.9c0,0,85.1,50.5,150.7,50.5c80.7,0,138.4-60.6,203.4-60.6c79.6,0,168.2,42.8,224,44.8"/>
 </g>
 <g id="fish">
 </g>
