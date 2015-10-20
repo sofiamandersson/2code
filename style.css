@@ -420,20 +420,6 @@ a {color: #fff;}
 
 .part:nth-child(6) {
    width: 100%;
-   height: 2000px;
-   background-color: #18717a ;
-   overflow: hidden;
-   /*
-   background-image: -webkit-linear-gradient(bottom, rgb(22, 143, 30) 6%, rgb(214, 191, 128) 100%);
-   background-image: -moz-linear-gradient(bottom, rgb(22, 143, 30) 6%, rgb(214, 191, 128) 60%);
-   background-image: -o-linear-gradient(bottom, rgb(22, 143, 30) 6%, rgb(214, 191, 128) 60%);
-   background-image: -ms-linear-gradient(bottom, rgb(22, 143, 30) 6%, rgb(214, 191, 128) 60%);
-   background-image: linear-gradient(bottom, rgb(22, 143, 30) 6%, rgb(214, 191, 128) 60%);
-   */
-}
-
-.part:nth-child(7) {
-   width: 100%;
    height: 1500px;
    background-color: #18717a ;
     /*
@@ -445,7 +431,7 @@ a {color: #fff;}
     */
 }
 
-.part:nth-child(8) {
+.part:nth-child(7) {
    width: 100%;
    height: 1200px;
    background-color: #18717a ;
@@ -458,7 +444,7 @@ a {color: #fff;}
     */
 }
 
-.part:nth-child(9) {
+.part:nth-child(8) {
    width: 100%;
    height: 1500px;
    background-color: #31aa9b;
@@ -471,7 +457,7 @@ a {color: #fff;}
     */
 }
 
-.part:nth-child(10) {
+.part:nth-child(9) {
    width: 100%;
    height: 1500px;
    background-color: #31aa9b ;
@@ -484,7 +470,7 @@ a {color: #fff;}
     */
 }
 
-.part:nth-child(11) {
+.part:nth-child(10) {
    width: 100%;
    height: 600px;
    background-color: #31aa9b ;
@@ -499,17 +485,17 @@ a {color: #fff;}
 
 /*----text end-----*/
 
-.part:nth-child(11) h2 {
+.part:nth-child(10) h2 {
     text-align: center;
 }
 
-.part:nth-child(11) p {
+.part:nth-child(10) p {
     margin: auto;
     text-align: center;
     width: 60%;
 }
 
-.part:nth-child(11) ul {
+.part:nth-child(10) ul {
     list-style-type: none;
     text-align: center;
     margin-top: 150px
