@@ -56,9 +56,9 @@ a {color: #fff;}
 /*---------------------------images in the background--------------------------*/
 
 
-.clouds_regular img, .cloud_hail img, .hail img, .cloud_worried img, .house_row img, .followers1 img, .followers2 img, .house_row2 img, .firsttown img, .firsttown img, .shore img, .waves img, .mountain img, .trees_row img, .cloud_stretch img, .trees_part1 img, .trees_part2 img, .cottage img, .town img, .cloud_boat img, .secondtown img, .gathering img, .thirdtown img {
 
-    position: absolute;
+.clouds_regular img, .cloud_hail img, .hail img, .cloud_worried img, .house_row img, .followers1 img, .followers2 img, .house_row2 img, .firsttown img, .firsttown img, .shore img, .waves img, .mountain img, .stones img, .bushes img, .trees_row img, .cloud_stretch img, .trees_part1 img, .trees_part2 img, .cottage img, .town img, .cloud_boat img, .secondtown img, .gathering img, .thirdtown img {
+	position: absolute;
 }
 
 /*----regular clouds----*/
@@ -170,7 +170,7 @@ a {color: #fff;}
 
 /*-----Waves-----*/
 
-.waves img:nth-child(1) {top: 0%;left: 0%;width: 40%;}
+.waves img:nth-child(1) {top: 20%;left: 15%;width: 100%;}
 
 .waves img:nth-child(2) {top: 20%;left: 15%;width: 40%;}
 
@@ -188,43 +188,55 @@ a {color: #fff;}
 
 /*-------mountain------*/
 
-.mountain img:nth-child(1){bottom: -5%;left: 0;width: 100%;}
+.mountain img:nth-child(1){bottom: -7%;left: 0;width: 100%;}
 
 /*-------ground-------*/
 
-.stones {
-    height: 1000px;
-    margin-top: -450px;
-  }
-
 .bushes img:nth-child(1){
-    margin-top: 20%;
-    margin-left: 10%;
-    width: 10%;
-    height: 10%;
+    top: 30%;
+    left: 10%;
+    width: 20%;
 }
 .bushes img:nth-child(2){
-    margin-top: 25%;
+    top: 52%;
     margin-left: 80%;
-    width: 10%;
-   
+    width: 20%;
 }
 .stones img:nth-child(1){
-    margin-top: 20%;
+    top: 60%;
     margin-left: 80%;
-    width: 17%;
+    width: 5%;
 }
 .stones img:nth-child(2){
-    margin-bottom: 15%;
-    margin-left: 70%;
-    width: 25%;
+    top: 15%;
+    left: 90%;
+    width: 5%;
 }
 .stones img:nth-child(3){
-  margin-bottom: 20%;
-  margin-left: 10%;
-  width: 17%;
+    top: 20%;
+    left: 30%;
+    width: 17%;
 }
-
+.stones img:nth-child(4){
+    top: 80%;
+    left: 5%;
+    width: 17%;
+}
+.stones img:nth-child(5){
+    top: 10%;
+    left: 7%;
+    width: 17%;
+}
+.stones img:nth-child(6){
+    top: 45%;
+    left: 1%;
+    width: 5%;
+}
+.stones img:nth-child(7){
+    top: 65%;
+    left: 8%;
+    width: 15%;
+}
 /*--trees together--*/
 
 .row img:nth-child(1) {bottom:0;}
@@ -398,6 +410,7 @@ a {color: #fff;}
    width: 100%;
    height: 1500px;
    background-color: #31aa9b;
+    overflow: hidden;
    /*
    background-image: -webkit-linear-gradient(bottom, rgb(214, 191, 128) 6%, rgb(214, 191, 128) 60%);
    background-image: -moz-linear-gradient(bottom, rgb(214, 191, 128) 6%, rgb(214, 191, 128) 60%);
@@ -408,20 +421,6 @@ a {color: #fff;}
 }
 
 .part:nth-child(6) {
-   width: 100%;
-   height: 2000px;
-   background-color: #18717a ;
-   overflow: hidden;
-   /*
-   background-image: -webkit-linear-gradient(bottom, rgb(22, 143, 30) 6%, rgb(214, 191, 128) 100%);
-   background-image: -moz-linear-gradient(bottom, rgb(22, 143, 30) 6%, rgb(214, 191, 128) 60%);
-   background-image: -o-linear-gradient(bottom, rgb(22, 143, 30) 6%, rgb(214, 191, 128) 60%);
-   background-image: -ms-linear-gradient(bottom, rgb(22, 143, 30) 6%, rgb(214, 191, 128) 60%);
-   background-image: linear-gradient(bottom, rgb(22, 143, 30) 6%, rgb(214, 191, 128) 60%);
-   */
-}
-
-.part:nth-child(7) {
    width: 100%;
    height: 1500px;
    background-color: #18717a ;
@@ -434,7 +433,7 @@ a {color: #fff;}
     */
 }
 
-.part:nth-child(8) {
+.part:nth-child(7) {
    width: 100%;
    height: 1200px;
    background-color: #18717a ;
@@ -447,7 +446,7 @@ a {color: #fff;}
     */
 }
 
-.part:nth-child(9) {
+.part:nth-child(8) {
    width: 100%;
    height: 1500px;
    background-color: #31aa9b;
@@ -460,7 +459,7 @@ a {color: #fff;}
     */
 }
 
-.part:nth-child(10) {
+.part:nth-child(9) {
    width: 100%;
    height: 1500px;
    background-color: #31aa9b ;
@@ -473,7 +472,7 @@ a {color: #fff;}
     */
 }
 
-.part:nth-child(11) {
+.part:nth-child(10) {
    width: 100%;
    height: 600px;
    background-color: #31aa9b ;
@@ -488,17 +487,17 @@ a {color: #fff;}
 
 /*----text end-----*/
 
-.part:nth-child(11) h2 {
+.part:nth-child(10) h2 {
     text-align: center;
 }
 
-.part:nth-child(11) p {
+.part:nth-child(10) p {
     margin: auto;
     text-align: center;
     width: 60%;
 }
 
-.part:nth-child(11) ul {
+.part:nth-child(10) ul {
     list-style-type: none;
     text-align: center;
     margin-top: 150px
