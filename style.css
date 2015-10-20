@@ -23,6 +23,31 @@ h1{
 }
 
 a {color: #fff;}
+
+/*------popuptext-----*/
+
+.popuptext1, .popuptext2, .popuptext3 {
+	background-color: #fff;
+	color: #000;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 6px;
+	z-index: 999;
+}
+
+.popuptext1 p, .popuptext2 p, .popuptext3 p {
+	padding: 25px 20px;
+	margin: 0;
+}
+
+.popuptext1 {top: 5%; float: right;}
+
+.popuptext2 {top: 60%;}
+
+.popuptext3 {top: 20%; float: right;}
+
+
 /*-----z-index------*/
 
 .cloud {z-index: 50;}
