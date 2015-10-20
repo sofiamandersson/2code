@@ -63,6 +63,16 @@ a {color: #fff;}
 	position: absolute;
 }
 
+
+/*----bird-----*/
+.bird {
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  width: 10%;
+}
+
+
 /*----regular clouds----*/
 
 .clouds_regular img:nth-child(1){
