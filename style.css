@@ -174,7 +174,7 @@ a {color: #fff;}
 
 /*-----Waves-----*/
 
-.waves img:nth-child(1) {top: 0%;left: 0%;width: 40%;}
+.waves img:nth-child(1) {top: 20%;left: 15%;width: 100%;}
 
 .waves img:nth-child(2) {top: 20%;left: 15%;width: 40%;}
 
