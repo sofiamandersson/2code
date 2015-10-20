@@ -32,10 +32,10 @@
 		<section class="part war">
 			<div class="wrap">
 				
-				<div id="start1"></div>
-				<div id="stay1" class="followers">
-                    <img src="images/new/cloud2.svg" alt="cloud">
-                    <img src="images/new/cloud2.svg" alt="cloud">
+				<div id="morestart1"></div>
+				<div id="morestay1" class="followers1">
+                    <img src="images/new/cloud3.svg" alt="cloud">
+                    <img src="images/new/cloud1.svg" alt="cloud">
 				</div>
 				
 				<div class="cloud_hail">
@@ -102,8 +102,8 @@
 		<section class="part">
 			<div class="wrap">
 				
-				<div id="start2"></div>
-				<div id="stay2" class="cloud_boat">
+				<div id="morestart2"></div>
+				<div id="morestay2" class="cloud_boat">
                     <img src="images/new/water_chip_white_1.svg">
 				</div>
 				
@@ -206,7 +206,7 @@
                     <img src="images/new/village_househigh_blueorange_1.svg" alt="house">
                     <img src="images/new/village_househigh_bluebrown_1.svg" alt="house">
 					<!--<img src="images/new/village_house_bluebrown_2.svg" alt="house">-->
-                </div>
+				</div>
 				
 			</div>
 		</section>
@@ -215,9 +215,14 @@
 			<div class="wrap">
 				
 				<div class="gathering">
-                    <img class="wow bounce infinite" src="images/new/gathering_clouds_white_1.svg" alt="clouds">
+                    <img src="images/new/gathering_clouds_white_1.svg" alt="clouds">
                 </div>
 				
+				<div id="morestart3"></div>
+				<div id="morestay3" class="followers2">
+                    <img src="images/new/cloud3.svg" alt="cloud">
+                    <img src="images/new/cloud1.svg" alt="cloud">
+				</div>
 			</div>
 		</section>
 		
@@ -282,15 +287,18 @@
     	<script>
 			var controller = new ScrollMagic.Controller();
 			$(function () {
-				var scene = new ScrollMagic.Scene({triggerElement: "#start1", duration: 6800})
-								.setPin("#stay1")
+				var scene = new ScrollMagic.Scene({triggerElement: "#morestart1", duration: 6800})
+								.setPin("#morestay1")
 								.addTo(controller);
-			});
-			var controller = new ScrollMagic.Controller();
-			$(function () {
-				var scene = new ScrollMagic.Scene({triggerElement: "#start2", duration: 2100})
-								.setPin("#stay2")
+				
+				var scene = new ScrollMagic.Scene({triggerElement: "#morestart2", duration: 2100})
+								.setPin("#morestay2")
 								.addTo(controller);
+				
+				var scene = new ScrollMagic.Scene({triggerElement: "#morestart3", duration: 2100, offset: 200})
+								.setPin("#morestay3")
+								.addTo(controller);
+				
 			});
 		</script>
 	</body> 

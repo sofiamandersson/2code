@@ -27,7 +27,7 @@ a {color: #fff;}
 
 .cloud {z-index: 50;}
 
-.followers {z-index: 50;}
+.followers1, .followers2 {z-index: 50;}
 
 .house_row img:nth-child(1), .house_row2 img:nth-child(1){z-index: 100;}
 
@@ -56,7 +56,7 @@ a {color: #fff;}
 /*---------------------------images in the background--------------------------*/
 
 
-.clouds_regular img, .cloud_hail img, .hail img, .cloud_worried img, .house_row img, .followers img, .house_row2 img, .firsttown img, .firsttown img, .shore img, .waves img, .mountain img, .trees_row img, .cloud_stretch img, .trees_part1 img, .trees_part2 img, .cottage img, .town img, .cloud_boat img, .secondtown img, .gathering img, .thirdtown img {
+.clouds_regular img, .cloud_hail img, .hail img, .cloud_worried img, .house_row img, .followers1 img, .followers2 img, .house_row2 img, .firsttown img, .firsttown img, .shore img, .waves img, .mountain img, .trees_row img, .cloud_stretch img, .trees_part1 img, .trees_part2 img, .cottage img, .town img, .cloud_boat img, .secondtown img, .gathering img, .thirdtown img {
 
     position: absolute;
 }
@@ -81,11 +81,11 @@ a {color: #fff;}
 .clouds_regular img:nth-child(4){top: 20%;left: 10%; width: 40%;}
 
 /*----followers----*/
-.followers {margin-top: 40%;}
+.followers1 {margin-top: 40%;}
 
-.followers img:nth-child(1){top: 5%;left: 25%; width: 20%;}
+.followers1 img:nth-child(1){top: 5%;left: 25%; width: 20%;}
 
-.followers img:nth-child(2){top: 0%;right: 25%; width: 20%;}
+.followers1 img:nth-child(2){top: 0%;right: 25%; width: 20%;}
 
 /*----clouds hail----*/
 
@@ -166,11 +166,7 @@ a {color: #fff;}
 
 /*--Cloud boat--*/
 
-.cloud_boat img:nth-child(1){
-	margin-top: -15%;
-	left: 15%;
-	width: 70%;
-}
+.cloud_boat img:nth-child(1){margin-top: -15%;left: 15%;width: 70%;}
 
 /*-----Waves-----*/
 
@@ -192,11 +188,7 @@ a {color: #fff;}
 
 /*-------mountain------*/
 
-.mountain img:nth-child(1){
-	bottom: -5%;
-	left: 0;
-	width: 100%;
-}
+.mountain img:nth-child(1){bottom: -5%;left: 0;width: 100%;}
 
 /*-------ground-------*/
 
@@ -306,7 +298,15 @@ a {color: #fff;}
 
 /*-----gathering----*/
 
-.gathering img {top: 40%;}
+.gathering img {top: -9%; height: 20%; width: 100%;}
+
+/*-------clouds from gathering---------*/
+
+.followers2 {}
+
+.followers2 img:nth-child(1){top: 0;left: 25%; width: 20%;}
+
+.followers2 img:nth-child(2){top: 0;right: 25%; width: 20%;}
 
 /*----thirdtown----*/
 
@@ -369,6 +369,7 @@ a {color: #fff;}
 	width: 100%;
 	height: 3000px;
 	background-color: #33a89d;
+	overflow-y: hidden;
 	/*
 	background-image: -webkit-linear-gradient(bottom, rgb(7, 66, 95) 10%, rgb(214, 191, 128) 60%);
 	background-image: -moz-linear-gradient(bottom, rgb(7, 66, 95) 10%, rgb(214, 191, 128) 60%);
