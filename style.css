@@ -1,7 +1,8 @@
 body {
 	margin: 0;
-	font-family: 'Open Sans', sans-serif;
-	color: #fff;
+	font-family: 'Nunito', sans-serif;
+	color: #f2f9f8;
+  font-weight: 300;
 }
 
 .wrap {
@@ -490,7 +491,7 @@ article {
 footer {
 	height: 350px;
 	background-color: #31aa9b;
-    position: relative;
+  position: relative;
 }
 
 footer div div {
@@ -509,7 +510,7 @@ footer h3 {
 footer p {
 	margin: auto;
 	text-align: center;
-    width: 60%; 
+  width: 60%; 
 }
 
 footer ul {
