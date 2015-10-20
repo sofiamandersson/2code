@@ -5,7 +5,7 @@
 		<meta charset="utf-8"/>
 		<link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="plugin/animate.css">
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
         <script src="plugin/wow.js"></script>
 		<script src="plugin/ScrollMagic.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -31,6 +31,13 @@
 		
 		<section class="part war">
 			<div class="wrap">
+				
+				<div id="start1"></div>
+				<div id="stay1" class="followers">
+                    <img src="images/new/cloud2.svg" alt="cloud">
+                    <img src="images/new/cloud2.svg" alt="cloud">
+				</div>
+				
 				<div class="cloud_hail">
 					<img class="wow shake infinite" src="images/new/cloud1.svg" alt="cloud">
 					<img class="wow fadeOutLeftBig" data-wow-delay="1s" src="images/new/cloud2.svg" alt="cloud">
@@ -48,11 +55,6 @@
 					<img class="wow shake infinite" src="images/new/attack_cloud_rain_1.svg" alt="cloud">
 					<img class="cloudvertical" src="images/new/attack_cloud_dark_1.svg" alt="cloud">
 					
-				</div>
-				
-				<div id="trigger1" class="spacer s0"></div>
-				<div id="pin1" class="box2 blue">
-                    <img id="hej" src="images/new/cloud4.svg" alt="cloud">
 				</div>
                 
                 <div class="house_row">
@@ -100,19 +102,24 @@
 		<section class="part">
 			<div class="wrap">
 				
-				<div class="cloud_boat">
-					<img src="images/new/water_chip_white_1.svg">
+				<div id="start2"></div>
+				<div id="stay2" class="cloud_boat">
+                    <img src="images/new/water_chip_white_1.svg">
 				</div>
 				
+				
+				
 				<div class="waves">
-					<!----<img src="images/new/ocean_wave_1.svg">
+					<img src="images/new/ocean_wave_1.svg">
+					<img src="images/new/ocean_wave_1.svg">
+					<img src="images/new/ocean_wave_1.svg">
+					<img src="images/new/ocean_wave_1.svg">
 					<img src="images/new/ocean_wave_1.svg">
 					<img src="images/new/ocean_wave_1.svg">
 					<img src="images/new/ocean_wave_1.svg">
 					<img src="images/new/ocean_wave_1.svg">
 					<img src="images/new/ocean_wave_shark_1.svg">
-					<img src="images/new/ocean_wave_1.svg">
-					<img src="images/new/ocean_wave_1.svg">-->
+
 				</div>
              
                 <div class="mountain">
@@ -206,6 +213,15 @@
 		
 		<section class="part">
 			<div class="wrap">
+                
+                <div class="thirdtown">
+                    <img src="images/new/village_househigh_bluebrown_1.svg"/>
+                    <img src="images/new/village_househigh_blueorange_1.svg"/>
+                    <img src="images/new/village_househigh_bluebrown_1.svg"/>
+                    <img src="images/new/village_househigh_blueorange_1.svg"/>
+                    <img src="images/new/village_househigh_bluebrown_1.svg"/>
+                    <img src="images/new/village_househigh_blueorange_1.svg"/>
+                </div>
 				
 				<div class="town">
 					<img src="images/new/city_cityfront_1.svg" alt="town">
@@ -256,8 +272,14 @@
     	<script>
 			var controller = new ScrollMagic.Controller();
 			$(function () {
-				var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 400})
-								.setPin("#pin1")
+				var scene = new ScrollMagic.Scene({triggerElement: "#start1", duration: 6800})
+								.setPin("#stay1")
+								.addTo(controller);
+			});
+			var controller = new ScrollMagic.Controller();
+			$(function () {
+				var scene = new ScrollMagic.Scene({triggerElement: "#start2", duration: 2100})
+								.setPin("#stay2")
 								.addTo(controller);
 			});
 		</script>
