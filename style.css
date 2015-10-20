@@ -198,6 +198,40 @@ a {color: #fff;}
 	width: 100%;
 }
 
+/*-------ground-------*/
+
+.stones {
+    height: 1000px;
+    margin-top: -450px;
+  }
+
+.bushes img:nth-child(1){
+    margin-top: 20%;
+    margin-left: 10%;
+    width: 10%;
+    height: 10%;
+}
+.bushes img:nth-child(2){
+    margin-top: 25%;
+    margin-left: 80%;
+    width: 10%;
+   
+}
+.stones img:nth-child(1){
+    margin-top: 20%;
+    margin-left: 80%;
+    width: 17%;
+}
+.stones img:nth-child(2){
+    margin-bottom: 15%;
+    margin-left: 70%;
+    width: 25%;
+}
+.stones img:nth-child(3){
+  margin-bottom: 20%;
+  margin-left: 10%;
+  width: 17%;
+}
 
 /*--trees together--*/
 
