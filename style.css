@@ -215,16 +215,16 @@ a {color: #fff;}
 .stones img:nth-child(3){
     top: 20%;
     left: 30%;
-    width: 17%;
+    width: 7%;
 }
 .stones img:nth-child(4){
     top: 80%;
-    left: 5%;
-    width: 17%;
+    left: 50%;
+    width: 15%;
 }
 .stones img:nth-child(5){
-    top: 10%;
-    left: 7%;
+    top: 30%;
+    left: 60%;
     width: 17%;
 }
 .stones img:nth-child(6){
@@ -235,7 +235,7 @@ a {color: #fff;}
 .stones img:nth-child(7){
     top: 65%;
     left: 8%;
-    width: 15%;
+    width: 8%;
 }
 /*--trees together--*/
 
