@@ -56,7 +56,7 @@ a {color: #fff;}
 /*---------------------------images in the background--------------------------*/
 
 
-.clouds_regular img, .cloud_hail img, .hail img, .cloud_worried img, .house_row img, .followers img, .house_row2 img, .firsttown img, .firsttown img, .shore img, .waves img, .mountain img, .trees_row img, .cloud_stretch img, .trees_part1 img, .trees_part2 img, .cottage img, .town img, .cloud_boat img, .secondtown img, .gathering img, .thirdtown img {
+.clouds_regular img, .cloud_hail img, .hail img, .cloud_worried img, .house_row img, .followers img, .house_row2 img, .firsttown img, .firsttown img, .shore img, .waves img, .mountain img, .stones img, .bushes img, .trees_row img, .cloud_stretch img, .trees_part1 img, .trees_part2 img, .cottage img, .town img, .cloud_boat img, .secondtown img, .gathering img, .thirdtown img {
 
     position: absolute;
 }
@@ -200,39 +200,51 @@ a {color: #fff;}
 
 /*-------ground-------*/
 
-.stones {
-    height: 1000px;
-    margin-top: -450px;
-  }
-
 .bushes img:nth-child(1){
-    margin-top: 20%;
-    margin-left: 10%;
-    width: 10%;
-    height: 10%;
+    top: 30%;
+    left: 10%;
+    width: 20%;
 }
 .bushes img:nth-child(2){
-    margin-top: 25%;
+    top: 52%;
     margin-left: 80%;
-    width: 10%;
-   
+    width: 20%;
 }
 .stones img:nth-child(1){
-    margin-top: 20%;
+    top: 60%;
     margin-left: 80%;
-    width: 17%;
+    width: 5%;
 }
 .stones img:nth-child(2){
-    margin-bottom: 15%;
-    margin-left: 70%;
-    width: 25%;
+    top: 15%;
+    left: 90%;
+    width: 5%;
 }
 .stones img:nth-child(3){
-  margin-bottom: 20%;
-  margin-left: 10%;
-  width: 17%;
+    top: 20%;
+    left: 30%;
+    width: 17%;
 }
-
+.stones img:nth-child(4){
+    top: 80%;
+    left: 5%;
+    width: 17%;
+}
+.stones img:nth-child(5){
+    top: 10%;
+    left: 7%;
+    width: 17%;
+}
+.stones img:nth-child(6){
+    top: 45%;
+    left: 1%;
+    width: 5%;
+}
+.stones img:nth-child(7){
+    top: 65%;
+    left: 8%;
+    width: 15%;
+}
 /*--trees together--*/
 
 .row img:nth-child(1) {bottom:0;}
