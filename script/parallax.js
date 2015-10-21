@@ -6,9 +6,9 @@ var coludsregular3 = document.getElementsByClassName('part1pase3')[0];
 var parallax = function () {
     var scroll = window.scrollY;
     var offset = scroll * 0.3;
-    coludsregular1.style.transform = 'translateY(' + offset + 'px)';
+    coludsregular1.style.transform = 'translate(-' + (offset / 4) + 'px, ' + (offset * 1.3) + 'px)';
     coludsregular2.style.transform = 'translateY(' + (offset * 1.5) + 'px)';
-	coludsregular3.style.transform = 'translate(-' + (offset / 4) + 'px, ' + (offset * 1.3) + 'px)';
+	coludsregular3.style.transform = 'translate(' + (offset / 4) + 'px, ' + (offset * 1.3) + 'px)';
 
   window.requestAnimationFrame(parallax);
 }

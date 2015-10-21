@@ -219,14 +219,7 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 .cloud_boat img:nth-child(9){margin-top: -15%; right: 2%; padding-top: 13%;}
 .cloud_boat img:nth-child(10){margin-top: -15%; left: 23%; padding-top: 20%;}
 .cloud_boat img:nth-child(11){margin-top: -15%; left: 3%; padding-top: 22%;}
-
-
-.cloud_drowning {
-	margin-top: -15%;
-	left: 15%;
-	width: 30%;
-	z-index: 1;
-}
+.cloud_boat img:nth-child(12) {margin-top: -15%;left: 15%;}
 
 
 /*-----Waves-----*/
