@@ -82,9 +82,9 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 .thunderclouds img {z-index: 80;}
 
-.row img:nth-child(1) {z-index: 100;}
+.trees_row1 img:nth-child(1), .trees_row2 img:nth-child(1) {z-index: 100;}
 
-.row img:nth-child(2) {z-index: 0;}
+.trees_row1 img:nth-child(2) {z-index: 0;}
 
 .town img:nth-child(1){z-index: 100;}
 
@@ -104,7 +104,7 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 
 
-.clouds_regular img, .cloud_hail img, .hail img, .cloud_worried img, .house_row img, .followers1 img, .followers2 img, .house_row2 img, .firsttown img, .firsttown img, .shore img, .waves img, .mountain img, .thunderclouds img, .stones img, .bushes img, .trees_row img, .cloud_stretch img, .trees_part1 img, .trees_part2 img, .cottage img, .town img, .cloud_boat img, .secondtown img, .gathering img, .thirdtown img, .birdonbranch img{
+.clouds_regular img, .cloud_hail img, .hail img, .cloud_worried img, .house_row img, .followers1 img, .followers2 img, .house_row2 img, .firsttown img, .shore img, .waves img, .mountain img, .thunderclouds img, .stones img, .bushes img, .trees_row1 img, .trees_row2 img, .cloud_stretch img, .trees_part1 img, .trees_part2 img, .cottage img, .town img, .cloud_boat img, .secondtown img, .gathering img, .thirdtown img, .birdonbranch img{
 	position: absolute;
 }
 
@@ -210,11 +210,7 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 .firsttown img:nth-child(12){top:30%;left:80%; width: 10%;}
 
-
-
-
-
-
+/*-----shore-----*/
 
 .shore img:nth-child(1) {bottom: 30%;left: -30%; width: 1350px; height: 3500px;}
 
@@ -317,11 +313,11 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 }
 /*--trees together--*/
 
-.row img:nth-child(1) {bottom:0;}
+.trees_row1 img:nth-child(1) {bottom: -1%;}
 
-.row img:nth-child(2) {bottom:1%;}
+.trees_row1 img:nth-child(2) {bottom: 0;}
 
-
+.trees_row2 img:nth-child(1) {top: -11%;}
 
 /*---cloud stretch---*/
 
