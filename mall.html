@@ -17,6 +17,7 @@
 			<div class="wrap">
 				
 				<img class="cloud" src="images/new/cloud2.svg" alt="thecloud">
+					
 				
 				<h1>Pushed Away</h1>
 				
@@ -77,7 +78,7 @@
                 <div class="house_row">
 					<img src="images/new/warzone_houserow_1.svg">
 				</div>
-                
+				
 			</div>
 		</section>
 		
@@ -139,7 +140,18 @@
 				
 				<div id="morestart2"></div>
 				<div id="morestay2" class="cloud_boat">
-                    <img src="images/new/water_chip_white_1.svg">
+                    <img src="images/new/ocean_boat_cloud_white_1.svg">
+                    <img src="images/new/ocean_boat_cloud_white_2.svg">
+                    <img src="images/new/ocean_boat_cloud_orange_1.svg">
+                    <img src="images/new/ocean_boat_cloud_thin_white_1.svg">
+					<img src="images/new/ocean_boat_cloud_white_1.svg">
+                    <img src="images/new/ocean_boat_cloud_white_3.svg">
+                    <img src="images/new/ocean_boat_cloud_white_2.svg">
+                    <img src="images/new/ocean_boat_cloud_orange_2.svg">
+                    <img src="images/new/ocean_boat_cloud_white_3.svg">
+                    <img src="images/new/ocean_boat_cloud_thin_white_1.svg">
+                    <img src="images/new/ocean_boat_cloud_white_2.svg">
+                    <img src="images/new/ocean_boat_cloud_white_2.svg">
 				</div>
 				
 				<div class="waves">
@@ -263,8 +275,10 @@
                     <img src="images/new/village_house_bluebrown_1.svg" alt="house">
                     <img src="images/new/village_house_blueorange_1.svg" alt="house">
 					<img src="images/new/village_tree_1.svg" alt="trees">
-                    <img src="images/new/village_househigh_blueorange_1.svg" alt="house">
-                    <img src="images/new/village_househigh_bluebrown_1.svg" alt="house">
+                    <img src="images/new/village_house_blueorange_1.svg" alt="house">
+                    <img src="images/new/village_house_bluebrown_2.svg" alt="house">
+                    <img src="images/new/forest_firs_green_1.svg" alt="tree">
+                    <img src="images/new/forest_firs_lightgreen_1.svg" alt="tree">
 					<!--<img src="images/new/village_house_bluebrown_2.svg" alt="house">-->
 				</div>
 				
@@ -278,6 +292,8 @@
 					<p>Ingeniis philosophari se officia in ullamco arbitrantur aut vidisse quo doctrina 
 						si illum admodum de aut mentitum reprehenderit.</p>
 				</div>
+				
+				
 				
 				<div class="gathering">
                     <img src="images/new/gathering_clouds_white_1.svg" alt="clouds">
@@ -298,6 +314,8 @@
 					<p>Ingeniis philosophari se officia in ullamco arbitrantur aut vidisse quo doctrina 
 						si illum admodum de aut mentitum reprehenderit.</p>
 				</div>
+				
+			
                 
                 <div class="thirdtown">
                     <img src="images/new/village_househigh_bluebrown_1.svg"/>
@@ -306,6 +324,11 @@
                     <img src="images/new/village_househigh_blueorange_1.svg"/>
                     <img src="images/new/village_househigh_bluebrown_1.svg"/>
                     <img src="images/new/village_househigh_blueorange_1.svg"/>
+                    <img src="images/new/village_househigh_bluebrown_1.svg"/>
+                    <img src="images/new/village_househigh_blueorange_1.svg"/>
+                    <img src="images/new/warzone_tree_blue_2.svg">
+                    <img src="images/new/warzone_tree_blue_2.svg">
+                    <img src="images/new/warzone_tree_blue_1.svg">
                 </div>
 				
 				<div class="town">
@@ -357,6 +380,7 @@
 			</div>
 		</footer>
 		<script src="script/parallax.js"></script>
+		<script src="plugins/debug.addIndicators.js"></script>
     	<script>
 			var controller = new ScrollMagic.Controller();
 			$(function () {
@@ -371,8 +395,11 @@
 				var scene = new ScrollMagic.Scene({triggerElement: "#morestart3", duration: 2100, offset: 200})
 								.setPin("#morestay3")
 								.addTo(controller);
-				
+				var scene = new ScrollMagic.Scene({triggerElement: "#andrastart", duration: 2100, offset: 200})
+								.setPin("#andrafarg")
+								.addTo(controller);
 			});
 		</script>
+		
 	</body> 
 </html>
