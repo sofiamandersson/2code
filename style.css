@@ -24,6 +24,8 @@ h1{
 
 a {color: #fff;}
 
+a:hover{color: #ea9c68; transition: 0.3s;}
+
 /*------popuptext-----*/
 
 .popuptext1, .popuptext2, .popuptext3, .popuptext4, .popuptext5, .popuptext6, .popuptext7, .popuptext8, .popuptext9, .popuptext10 {
@@ -102,7 +104,7 @@ a {color: #fff;}
 
 
 
-.clouds_regular img, .cloud_hail img, .hail img, .cloud_worried img, .house_row img, .followers1 img, .followers2 img, .house_row2 img, .firsttown img, .firsttown img, .shore img, .waves img, .mountain img, .thunderclouds img, .stones img, .bushes img, .trees_row img, .cloud_stretch img, .trees_part1 img, .trees_part2 img, .cottage img, .town img, .cloud_boat img, .secondtown img, .gathering img, .thirdtown img {
+.clouds_regular img, .cloud_hail img, .hail img, .cloud_worried img, .house_row img, .followers1 img, .followers2 img, .house_row2 img, .firsttown img, .firsttown img, .shore img, .waves img, .mountain img, .thunderclouds img, .stones img, .bushes img, .trees_row img, .cloud_stretch img, .trees_part1 img, .trees_part2 img, .cottage img, .town img, .cloud_boat img, .secondtown img, .gathering img, .thirdtown img, .birdonbranch img{
 	position: absolute;
 }
 
@@ -570,6 +572,7 @@ footer a {
     padding: 10px;
 }
 
+.birdonbranch img {bottom: -20%; right: 0; width: 35%; }
 
 /*------icons------*/
 
@@ -633,9 +636,7 @@ footer a {
 }
 
 .soc-icon-last{margin:0 !important;}
-.soc-twitter {background-color: #4da7de;}
+.soc-twitter {background-color: #ea9c68;}
 .soc-twitter:before {content:'a';}
-.soc-facebook {background-color: #3e5b98;}
+.soc-facebook {background-color: #ea9c68;}
 .soc-facebook:before {content:'b';}
-.soc-google {background-color: #d93e2d;}
-.soc-google:before {content:'c';}
