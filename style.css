@@ -391,9 +391,10 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 	background-image: -o-linear-gradient(bottom, rgb(24, 113, 122) 0, rgb(74, 204, 194) 100%);
 	background-image: -ms-linear-gradient(bottom, rgb(24, 113, 122) 0, rgb(74, 204, 194) 100%);
 	background-image: linear-gradient(bottom, rgb(24, 113, 122) 0, rgb(74, 204, 194) 100%);
+	overflow: hidden;
 }
 
-.part:nth-child(2) {width: 100%;height: 2000px;background-color: #18717a;overflow: hidden;}
+.part:nth-child(2) {width: 100%;height: 2000px;background-color: #18717a; overflow: hidden;}
 
 .part:nth-child(3) {width: 100%;height: 1200px;background-color: #33a89d;}
 
@@ -411,7 +412,7 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 .part:nth-child(10) {width: 100%;height: 1500px; background-color: #31aa9b;}
 
-.part:nth-child(11) {width: 100%;height: 600px;background-color: #31aa9b ;}
+.part:nth-child(11) {width: 100%;height: 600px;background-color: #31aa9b;}
 
 /*----text end-----*/
 
