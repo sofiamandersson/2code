@@ -80,7 +80,7 @@ a {color: #fff;}
 
 .thunderclouds img {z-index: 80;}
 
-.trees_row1 img:nth-child(1) {z-index: 100;}
+.trees_row1 img:nth-child(1), .trees_row2 img:nth-child(1) {z-index: 100;}
 
 .trees_row1 img:nth-child(2) {z-index: 0;}
 
