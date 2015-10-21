@@ -26,7 +26,9 @@
 					<img class="part1pase1" src="images/new/cloud2.svg" alt="cloud">
 					<img class="part1pase2" src="images/new/cloud3.svg" alt="cloud">
 					<img src="images/new/cloud1.svg" alt="cloud">
+					<img src="images/new/cloud2.svg" alt="cloud">
 					<img class="bird" src="images/new/sky_bird_orange_1.svg" alt="bird">
+					
 				</div>
                 
 				<div class="popuptext1 wow fadeInRight" data-wow-duration="1.5s">
@@ -142,7 +144,7 @@
 				<div id="morestay2" class="cloud_boat">
                     <img src="images/new/ocean_boat_cloud_white_1.svg">
                     <img src="images/new/ocean_boat_cloud_white_2.svg">
-                    <img src="images/new/ocean_boat_cloud_orange_1.svg">
+                  
                     <img src="images/new/ocean_boat_cloud_thin_white_1.svg">
 					<img src="images/new/ocean_boat_cloud_white_1.svg">
                     <img src="images/new/ocean_boat_cloud_white_3.svg">
@@ -153,6 +155,8 @@
                     <img src="images/new/ocean_boat_cloud_white_2.svg">
                     <img src="images/new/ocean_boat_cloud_white_2.svg">
 				</div>
+				
+				<img class="cloud_drowning" src="images/new/ocean_boat_cloud_orange_1.svg">
 				
 				<div class="waves">
 					<img src="images/new/ocean_wave_2.svg">
@@ -299,8 +303,8 @@
                     <img src="images/new/gathering_clouds_white_1.svg" alt="clouds">
                 </div>
 				
-				<div id="morestart3"></div>
-				<div id="morestay3" class="followers2">
+				<div id="morestart4"></div>
+				<div id="morestay4" class="followers2">
                     <img src="images/new/cloud3.svg" alt="cloud">
                     <img src="images/new/cloud1.svg" alt="cloud">
 				</div>
@@ -380,26 +384,6 @@
 			</div>
 		</footer>
 		<script src="script/parallax.js"></script>
-		<script src="plugins/debug.addIndicators.js"></script>
-    	<script>
-			var controller = new ScrollMagic.Controller();
-			$(function () {
-				var scene = new ScrollMagic.Scene({triggerElement: "#morestart1", duration: 6800})
-								.setPin("#morestay1")
-								.addTo(controller);
-				
-				var scene = new ScrollMagic.Scene({triggerElement: "#morestart2", duration: 2100})
-								.setPin("#morestay2")
-								.addTo(controller);
-				
-				var scene = new ScrollMagic.Scene({triggerElement: "#morestart3", duration: 2100, offset: 200})
-								.setPin("#morestay3")
-								.addTo(controller);
-				var scene = new ScrollMagic.Scene({triggerElement: "#andrastart", duration: 2100, offset: 200})
-								.setPin("#andrafarg")
-								.addTo(controller);
-			});
-		</script>
-		
+    	<script src="script/scrollmagic.js"></script>
 	</body> 
 </html>
