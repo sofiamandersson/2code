@@ -17,6 +17,7 @@
 			<div class="wrap">
 				
 				<img class="cloud" src="images/new/cloud2.svg" alt="thecloud">
+					
 				
 				<h1>Pushed Away</h1>
 				
@@ -77,7 +78,7 @@
                 <div class="house_row">
 					<img src="images/new/warzone_houserow_1.svg">
 				</div>
-                
+				
 			</div>
 		</section>
 		
@@ -288,6 +289,8 @@
 						si illum admodum de aut mentitum reprehenderit.</p>
 				</div>
 				
+				
+				
 				<div class="gathering">
                     <img src="images/new/gathering_clouds_white_1.svg" alt="clouds">
                 </div>
@@ -307,6 +310,8 @@
 					<p>Ingeniis philosophari se officia in ullamco arbitrantur aut vidisse quo doctrina 
 						si illum admodum de aut mentitum reprehenderit.</p>
 				</div>
+				
+			
                 
                 <div class="thirdtown">
                     <img src="images/new/village_househigh_bluebrown_1.svg"/>
@@ -366,6 +371,7 @@
 			</div>
 		</footer>
 		<script src="script/parallax.js"></script>
+		<script src="plugins/debug.addIndicators.js"></script>
     	<script>
 			var controller = new ScrollMagic.Controller();
 			$(function () {
@@ -380,8 +386,11 @@
 				var scene = new ScrollMagic.Scene({triggerElement: "#morestart3", duration: 2100, offset: 200})
 								.setPin("#morestay3")
 								.addTo(controller);
-				
+				var scene = new ScrollMagic.Scene({triggerElement: "#andrastart", duration: 2100, offset: 200})
+								.setPin("#andrafarg")
+								.addTo(controller);
 			});
 		</script>
+		
 	</body> 
 </html>
