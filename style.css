@@ -23,6 +23,45 @@ h1{
 }
 
 a {color: #fff;}
+
+/*------popuptext-----*/
+
+.popuptext1, .popuptext2, .popuptext3, .popuptext4, .popuptext5, .popuptext6, .popuptext7, .popuptext8, .popuptext9, .popuptext10 {
+	background-color: #fff;
+	color: #000;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 6px;
+	z-index: 999;
+}
+
+.popuptext1 p, .popuptext2 p, .popuptext3 p, .popuptext4 p, .popuptext5 p, .popuptext6 p, .popuptext7 p, .popuptext8 p, .popuptext9 p, .popuptext10 p{
+	padding: 25px 20px;
+	margin: 0;
+}
+
+.popuptext1 {top: 5%; float: right;}
+
+.popuptext2 {top: 60%;}
+
+.popuptext3 {top: 20%; float: right;}
+
+.popuptext4 {top: 4%;}
+
+.popuptext5 {top: 4%; float: right;}
+
+.popuptext6 {top: 20%;}
+
+.popuptext7 {top: 10%; float: right;}
+
+.popuptext8 {top: 10%;}
+
+.popuptext9 {top: 20%; float: right;}
+
+.popuptext10 {top: 0%;}
+
+
 /*-----z-index------*/
 
 .cloud {z-index: 50;}
