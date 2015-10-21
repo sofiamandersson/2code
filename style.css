@@ -219,7 +219,20 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 /*--Cloud boat--*/
 
-.cloud_boat img:nth-child(1){margin-top: -15%;left: 15%;width: 70%;}
+.cloud_boat img {width: 30%;}
+
+.cloud_boat img:nth-child(1){margin-top: -15%; left: 10%;}
+.cloud_boat img:nth-child(2){margin-top: -15%; left: 47%;}
+.cloud_boat img:nth-child(3){margin-top: -15%; left: 15%;}
+.cloud_boat img:nth-child(4){margin-top: -15%; left: 12%; padding-top: 13%;}
+.cloud_boat img:nth-child(5){margin-top: -15%; left: 12%; padding-top: 13%;}
+.cloud_boat img:nth-child(6){margin-top: -15%; right: 15%; padding-top: 5%;}
+.cloud_boat img:nth-child(7){margin-top: -15%; right: 7%;}
+.cloud_boat img:nth-child(8){margin-top: -15%; right: 25%; padding-top: 14%;}
+.cloud_boat img:nth-child(9){margin-top: -15%; right: 12%; padding-top: 15%;}
+.cloud_boat img:nth-child(10){margin-top: -15%; right: 2%; padding-top: 13%;}
+.cloud_boat img:nth-child(11){margin-top: -15%; left: 23%; padding-top: 20%;}
+.cloud_boat img:nth-child(12){margin-top: -15%; left: 3%; padding-top: 22%;}
 
 /*-----Waves-----*/
 
