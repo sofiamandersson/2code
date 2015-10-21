@@ -185,34 +185,39 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 }
 
 /*----First town----*/
+.firsttown img:nth-child(1){top:5%;right:-1%;width:100%;}
 
-.firsttown img:nth-child(1){top:10%; right:25%; width: 15%;}
+.firsttown img:nth-child(2){top:12%; right:10%; width: 15%;}
 
-.firsttown img:nth-child(2){top:10%; right: 5%; width: 15%;}
+.firsttown img:nth-child(3){top:46%; right: 10%; width: 15%;}
 
-.firsttown img:nth-child(3){top:15%; right:0; width: 30%;}
+.firsttown img:nth-child(4){top:55%; right:49%; width: 24%;}
 
-.firsttown img:nth-child(4){top:9%; width: 20%;}
+.firsttown img:nth-child(5){top:38%; right:75%; width: 15%;}
 
-.firsttown img:nth-child(5){top:5%; right:10%; width: 20%;}
+.firsttown img:nth-child(6){top:8%; right:60%; width: 13%;}
 
-.firsttown img:nth-child(6){top:20%; left: 17%; width: 15%;}
+.firsttown img:nth-child(7){top:15%; left: 17%; width: 15%;}
 
-.firsttown img:nth-child(7){top:20%; left: 34%;width: 10%;}
+.firsttown img:nth-child(8){top:20%; left: 34%;width: 10%;}
 
-.firsttown img:nth-child(8){top:20%; right:10%; width: 10%;}
+.firsttown img:nth-child(9){top:11%; right:38%; width: 12%;}
 
-.firsttown img:nth-child(9){top:25%; width: 20%;}
+.firsttown img:nth-child(10){top:12%; right:25%; width: 15%;}
 
-.firsttown img:nth-child(10){top:25%;left:80%; width: 20%;}
+.firsttown img:nth-child(11){top:30%;left:80%; width: 20%;}
 
-.firsttown img:nth-child(11){top:30%; width: 10%;}
+.firsttown img:nth-child(12){top:34%; right:50%; width: 10%;}
 
-.firsttown img:nth-child(12){top:30%;left:80%; width: 10%;}
+.firsttown img:nth-child(13){top:30%;left:70%; width: 10%;}
 
+<<<<<<< Updated upstream
 /*-----shore-----*/
 
 .shore img:nth-child(1) {bottom: 30%;left: -30%; width: 1350px; height: 3500px;}
+=======
+
+>>>>>>> Stashed changes
 
 .shore img:nth-child(2){bottom: 10%;left: -30%; width: 1350px; height: 3500px;}
 
@@ -362,21 +367,21 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 /*----*/
 
-.secondtown img:nth-child(1){top:17%; right:25%; width: 15%;}
+.secondtown img:nth-child(1){top:10%; right:25%; width: 15%;}
 
-.secondtown img:nth-child(2){top:17%; right: 10%; width: 15%;}
+.secondtown img:nth-child(2){top:10%; right: 10%; width: 15%;}
 
-.secondtown img:nth-child(3){top:27%; right:0; width: 90%;}
+.secondtown img:nth-child(3){top:20%; right:0; width: 90%;}
 
-.secondtown img:nth-child(4){top:9%; width: 30%;}
+.secondtown img:nth-child(4){top:6%; width: 30%;}
 
-.secondtown img:nth-child(5){top:0; right:10%; width: 30%;}
+.secondtown img:nth-child(5){top:-3%; right:10%; width: 30%;}
 
-.secondtown img:nth-child(6){top:48%; left: 17%; width: 15%;}
+.secondtown img:nth-child(6){top:42%; left: 17%; width: 15%;}
 
-.secondtown img:nth-child(7){top:38%; left: 44%;width: 15%;}
+.secondtown img:nth-child(7){top:30%; left: 64%;width: 15%;}
 
-.secondtown img:nth-child(8){top:50%; right:10%; width: 30%;}
+.secondtown img:nth-child(8){top:45%; right:10%; width: 30%;}
 
 .secondtown img:nth-child(9){top:65%; right: 70%;width: 20%;}
 
