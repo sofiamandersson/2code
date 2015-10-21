@@ -128,7 +128,7 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 .clouds_regular img:nth-child(4){top: 23%;left: 10%; width: 40%;}
 
-.clouds_regular img:nth-child(5){top: 65%;right: 0; opacity: 0.5; width: 40%;}
+.clouds_regular img:nth-child(5){top: 55%;right: 0; opacity: 0.5; width: 40%;}
 
 /*----followers----*/
 .followers1 {margin-top: 40%;}
@@ -201,7 +201,7 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 .shore img:nth-child(1) {bottom: 5%;left: -30%; width: 1500px; height: 3500px;}
 
-.shore img:nth-child(2){bottom: -10%;left: -30%; width: 1500px; height: 3500px;}
+.shore img:nth-child(2){bottom: 0%;left: -30%; width: 1500px; height: 3500px;}
 
 
 /*--Cloud boat--*/
