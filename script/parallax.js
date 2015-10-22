@@ -2,6 +2,7 @@
 var coludsregular1 = document.getElementsByClassName('part1pase1')[0];
 var coludsregular2 = document.getElementsByClassName('part1pase2')[0];
 var coludsregular3 = document.getElementsByClassName('part1pase3')[0];
+var coludsregular4 = document.getElementsByClassName('part1pase4')[0];
 
 var parallax = function () {
     var scroll = window.scrollY;
@@ -9,6 +10,7 @@ var parallax = function () {
     coludsregular1.style.transform = 'translate(-' + (offset / 4) + 'px, ' + (offset * 1.3) + 'px)';
     coludsregular2.style.transform = 'translateY(' + (offset * 1.5) + 'px)';
 	coludsregular3.style.transform = 'translate(' + (offset / 4) + 'px, ' + (offset * 1.3) + 'px)';
+	coludsregular4.style.transform = 'translateX(-' + offset + 'px)';
 
   window.requestAnimationFrame(parallax);
 }
