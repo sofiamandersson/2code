@@ -115,7 +115,7 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 /*----bird-----*/
 .bird {
   position: absolute;
-  top: 20%;
+  top: 25%;
   left: 70%;
   width: 10%;
 }
