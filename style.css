@@ -61,7 +61,7 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 .popuptext9 {top: 20%; float: right;}
 
-.popuptext10 {top: 0%;}
+.popuptext10 {top: 20%;}
 
 
 /*-----z-index------*/
@@ -344,6 +344,15 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 .gathering img {top: -9%; height: 20%; width: 100%;}
 
+/*
+.gahering_animation img:nth-child(1){top:0;}
+.gahering_animation img:nth-child(2){top:0;}
+.gahering_animation img:nth-child(3){top:0;}
+.gahering_animation img:nth-child(4){top:0;}
+.gahering_animation img:nth-child(5){top:0;}
+.gahering_animation img:nth-child(6){top:0;}
+*/
+
 /*-------clouds from gathering---------*/
 
 .followers2 img:nth-child(1){top: 0;left: 25%; width: 20%;}
@@ -408,7 +417,7 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 .part:nth-child(8) {width: 100%;height: 1200px;background-color: #18717a ;}
 
-.part:nth-child(9) {width: 100%;height: 1000px;background-color: #31aa9b;}
+.part:nth-child(9) {width: 100%;height: 700px;background-color: #31aa9b;}
 
 .part:nth-child(10) {width: 100%;height: 1500px; background-color: #31aa9b;}
 
@@ -418,6 +427,8 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 .part:nth-child(11) h2 {
     text-align: center;
+	padding: 20px;
+	margin-top: 0;
 }
 
 .part:nth-child(11) p {
@@ -433,11 +444,9 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 }
 
 article {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)    
+	background-color: #31aa9b;
+	padding: 10%;
+	z-index: 999;
 }
 
 
@@ -482,7 +491,7 @@ footer a {
     padding: 10px;
 }
 
-.birdonbranch img {bottom: -20%; right: 0; width: 35%; }
+.birdonbranch {position: absolute; bottom: 10%; right: 0; width: 35%; }
 
 /*------icons------*/
 
