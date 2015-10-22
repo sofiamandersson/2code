@@ -174,11 +174,11 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 .house_row2 img:nth-child(1) {top: -15%;left: 0;width: 100%;}
 
-.house_row2 img:nth-child(2) {top: -20%;right: 13%;width: 25%;}
+.house_row2 img:nth-child(2) {top: -21%;right: 13%;width: 25%;}
 
-.house_row2 img:nth-child(3) {top: -18%;left: 12%;width: 25%;}
+.house_row2 img:nth-child(3) {top: -20%;left: 12%;width: 25%;}
 
-.house_row2 img:nth-child(4) {top: -3%;right: 12%;width: 10%;}
+.house_row2 img:nth-child(4) {top: -2%;right: 13%;width: 10%;}
 
 .house_row2 img:nth-child(5) {top: -3%;left: 12%;width: 10%;}
 
@@ -210,9 +210,9 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 .firsttown img:nth-child(13){top:38%;left:70%; width: 10%;}
 
-.firsttown img:nth-child(14){top:20%;left:74%; width: 10%;}
+.firsttown img:nth-child(14){top:21%;left:74%; width: 10%;}
 
-.firsttown img:nth-child(15){top:20%;left:59%; width: 10%;}
+.firsttown img:nth-child(15){top:21%;left:59%; width: 10%;}
 
 .firsttown img:nth-child(16){top:65%;left:36%; width: 14%;}
 
