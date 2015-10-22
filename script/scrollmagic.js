@@ -16,8 +16,9 @@ var controller = new ScrollMagic.Controller();
 								.setPin("#morestay3")
 								.addTo(controller);
 				
-				var scene = new ScrollMagic.Scene({triggerElement: "#morestart4", duration: 2400, offset: 200})
+				var scene = new ScrollMagic.Scene({triggerElement: "#morestart4", duration: 2100, offset: 200})
 								.setPin("#morestay4")
 								.addTo(controller);
+				
 				
 			});
