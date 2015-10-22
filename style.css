@@ -231,15 +231,15 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 /*-----Waves-----*/
 
-.waves img:nth-child(1) {top: 22%;left: 5%;width: 70%;}
+.waves img:nth-child(1) {top: 25%;left: 5%;width: 70%;}
 
-.waves img:nth-child(2) {top: 10%;left: 5%;width: 70%;}
+.waves img:nth-child(2) {top: 4%;left: 5%;width: 70%;}
 
 .waves img:nth-child(3) {top: 40%;left: 0;width: 70%;}
 
 .waves img:nth-child(4) {top: 50%;right: 0;width: 70%;}
 
-.waves img:nth-child(5) {top: 8%;right: 0;width: 70%;}
+.waves img:nth-child(5) {top: 5%;right: 0;width: 70%;}
 
 .waves img:nth-child(6) {top: 18%;right: 0;width: 70%;}
 
