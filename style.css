@@ -246,9 +246,9 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 .mountain img:nth-child(2){bottom: -7%;left: 0;width: 100%;}
 
-.thunderclouds img:nth-child(1) {bottom: 2%; right: 30%; width: 15%;}
+.thunderclouds img:nth-child(1) {bottom: 2%; right: 45%; width: 15%;}
 
-.thunderclouds img:nth-child(2) {bottom: 2%; left: 5%; width: 15%;}
+.thunderclouds img:nth-child(2) {bottom: 2%; left: 15%; width: 15%;}
 
 .thunderclouds img:nth-child(3) {bottom: 2%; right: 20%; width: 15%;}
 
