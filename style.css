@@ -107,7 +107,7 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 
 
-.clouds_regular img, .cloud_hail img, .hail img, .cloud_worried img, .house_row img, .followers1 img, .followers2 img, .house_row2 img, .firsttown img, .shore img, .waves img, .mountain img, .thunderclouds img, .stones img, .bushes img, .trees_row1 img, .trees_row2 img, .cloud_stretch img, .trees_part1 img, .trees_part2 img, .cottage img, .town img, .cloud_boat img, .secondtown img, .gathering img, .thirdtown img, .birdonbranch img{
+.clouds_regular img, .cloud_hail img, .hail img, .cloud_worried img, .house_row img, .followers1 img, .followers2 img, .house_row2 img, .firsttown img, .shore img, .waves img, .mountain img, .thunderclouds img, .stones img, .bushes img, .trees_row1 img, .trees_row2 img, .cloud_stretch img, .trees_part1 img, .trees_part2 img, .cottage img, .town img, .cloud_boat img, .secondtown img, .gathering img, .thirdtown img, .birdonbranch img, .town_gathering img{
 	position: absolute;
 }
 
@@ -389,23 +389,44 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 .thirdtown img:nth-child(1){top: 5%;right: 67%; width: 15%;}
 
-.thirdtown img:nth-child(2){top: 5%;right: 50%; width: 15%;}
+.thirdtown img:nth-child(2){top: 5%;right: 15%; width: 15%;}
 
 .thirdtown img:nth-child(3){top: 40%; right: 10%; width:15%;}
 
-.thirdtown img:nth-child(4){top:25%; right: 33%; width:15%;}
+.thirdtown img:nth-child(4){top:25%; right: 45%; width:15%;}
 
-.thirdtown img:nth-child(5){top: 40%; left: 15%; width:15%;}
+.thirdtown img:nth-child(5){top: 40%; left: 5%; width:15%;}
 
-.thirdtown img:nth-child(6){top: 20%; left: 5%; width:15%;}
+.thirdtown img:nth-child(6){top: 20%; right: 5%; width:15%;}
 
-.thirdtown img:nth-child(7){top: 20%; right: 5%; width:15%;}
+.thirdtown img:nth-child(7){top: 45%; right:40% ; width: 15%;}
 
-.thirdtown img:nth-child(8){top: 22.3%; left: 0; width: 10%;}
+.thirdtown img:nth-child(8){top: 30%; right: 65%; width: 10%;}
 
-.thirdtown img:nth-child(9){top: 30%; right: 20%; width: 10%;}
+.thirdtown img:nth-child(9){top: 5%; right: 23%; width: 10%;}
+.thirdtown img:nth-child(9){top: 25%; right: 23%; width: 10%;}
 
-.thirdtown img:nth-child(10){top: 5%; right: 23%; width: 10%;}
+/*------town_gathering------*/
+
+.town_gathering img:nth-child(1){top:12%; right: 13%; width: 15%;}
+
+.town_gathering img:nth-child(2){top: 43%; right: 33%; width: 15%;}
+
+.town_gathering img:nth-child(3){top: 48%; right: 50%; width: 10%;}
+
+.town_gathering img:nth-child(4){top: 22%; right: 63%; width: 15%;}
+
+.town_gathering img:nth-child(5){top: 83%; right: 23%; width: 15%;}
+
+.town_gathering img:nth-child(6){top: 63%; right: 70%; width: 15%;}
+
+.town_gathering img:nth-child(7){top: 17%; right: 28%; width: 10%;}
+
+.town_gathering img:nth-child(8){top: 10%; right: 46%; width: 10%;}
+
+.town_gathering img:nth-child(9){top: 55%; right: 13%; width: 10%;}
+
+.town_gathering img:nth-child(10){top: 103%; right: 47%; width: 10%;}
 
 /*-------town------*/
 

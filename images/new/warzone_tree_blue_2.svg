@@ -1,40 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 73.5 144.5" style="enable-background:new 0 0 73.5 144.5;" xml:space="preserve">
+<svg version="1.1" id="Lager_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-442 208.5 73.5 144.5" style="enable-background:new -442 208.5 73.5 144.5;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#33A89D;}
-	.st1{fill:#18717A;}
-	.st2{display:none;}
-	.st3{display:inline;}
-	.st4{fill:#1A7F84;}
-	.st5{fill:#84D3C9;}
-	.st6{fill:#EA9C68;}
-	.st7{fill:#176266;}
-	.st8{fill:#5B463B;}
-	.st9{fill:#1B8989;}
-	.st10{fill:#EFEFEF;}
-	.st11{fill:#4ACCC2;}
-	.st12{fill:#1C88A5;}
-	.st13{fill:#1B7989;}
-	.st14{fill:#31AA9B;}
-	.st15{fill:#EDA574;}
-	.st16{fill:#F2F9F8;}
-	.st17{fill:#166D6D;}
-	.st18{fill:#166468;}
-	.st19{fill:#493831;}
-	.st20{fill:#135454;}
-	.st21{fill:#72B5AB;}
-	.st22{fill:#2D9185;}
-	.st23{fill:#BC825B;}
-	.st24{fill:#145656;}
-	.st25{fill:#145151;}
-	.st26{fill:#155656;}
-	.st27{fill:#30998C;}
-	.st28{fill:#146266;}
-	.st29{fill:none;stroke:#1A7F84;stroke-width:6;stroke-linecap:round;stroke-miterlimit:10;}
-	.st30{fill:none;stroke:#EA9C68;stroke-width:6;stroke-linecap:round;stroke-miterlimit:10;}
-	.st31{fill:none;stroke:#5B463B;stroke-width:6;stroke-linecap:round;stroke-miterlimit:10;}
+	.st0{display:none;}
+	.st1{fill:none;stroke:#1A7F84;stroke-width:6;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:#1A7F84;}
 </style>
 <g id="Layer_3">
 </g>
@@ -44,13 +15,13 @@
 </g>
 <g id="Houses">
 </g>
-<g id="Layer_6" class="st2">
+<g id="Layer_6" class="st0">
 </g>
 <g id="Layer_11">
 </g>
 <g id="Layer_10">
 </g>
-<g id="Layer_9" class="st2">
+<g id="Layer_9" class="st0">
 </g>
 <g id="houserow">
 </g>
@@ -66,15 +37,11 @@
 </g>
 <g id="ROW2">
 </g>
-<g id="Layer_16">
-	<g>
-		<line class="st29" x1="35" y1="40" x2="35" y2="135"/>
-		<circle class="st4" cx="25.7" cy="33.4" r="19.2"/>
-		<circle class="st4" cx="46.7" cy="17" r="11.9"/>
-		<circle class="st4" cx="23" cy="68" r="8.8"/>
-		<circle class="st4" cx="55" cy="38.2" r="14.1"/>
-		<line class="st29" x1="34.8" y1="81.3" x2="22.9" y2="69.4"/>
-		<line class="st29" x1="37.5" y1="64" x2="54.8" y2="47.1"/>
-	</g>
-</g>
+<line class="st1" x1="-407" y1="248.5" x2="-407" y2="343.5"/>
+<circle class="st2" cx="-416.3" cy="241.9" r="19.2"/>
+<circle class="st2" cx="-395.3" cy="225.5" r="11.9"/>
+<circle class="st2" cx="-419" cy="276.5" r="8.8"/>
+<circle class="st2" cx="-387" cy="246.7" r="14.1"/>
+<line class="st1" x1="-407.2" y1="289.8" x2="-419.1" y2="277.9"/>
+<line class="st1" x1="-404.5" y1="272.5" x2="-387.2" y2="255.6"/>
 </svg>

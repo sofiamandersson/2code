@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Lager_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="-454 233.5 51 94.5" style="enable-background:new -454 233.5 51 94.5;" xml:space="preserve">
+	 viewBox="-442 208.5 73.5 144.5" style="enable-background:new -442 208.5 73.5 144.5;" xml:space="preserve">
 <style type="text/css">
 	.st0{display:none;}
-	.st1{fill:none;stroke:#1A7F84;stroke-width:6;stroke-linecap:round;stroke-miterlimit:10;}
-	.st2{fill:#1A7F84;}
+	.st1{fill:none;stroke:#EA9C68;stroke-width:6;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:#EA9C68;}
 </style>
 <g id="Layer_3">
 </g>
@@ -37,10 +37,11 @@
 </g>
 <g id="ROW2">
 </g>
-<line class="st1" x1="-429" y1="258.5" x2="-429" y2="318.5"/>
-<line class="st1" x1="-429" y1="270.8" x2="-417.9" y2="260.9"/>
-<circle class="st2" cx="-435.9" cy="252.1" r="12.7"/>
-<circle class="st2" cx="-416.4" cy="255.3" r="9.4"/>
-<circle class="st2" cx="-416.3" cy="274.9" r="5.9"/>
-<line class="st1" x1="-429" y1="282.8" x2="-418.8" y2="276.4"/>
+<line class="st1" x1="-407" y1="248.5" x2="-407" y2="343.5"/>
+<circle class="st2" cx="-416.3" cy="241.9" r="19.2"/>
+<circle class="st2" cx="-395.3" cy="225.5" r="11.9"/>
+<circle class="st2" cx="-419" cy="276.5" r="8.8"/>
+<circle class="st2" cx="-387" cy="246.7" r="14.1"/>
+<line class="st1" x1="-407.2" y1="289.8" x2="-419.1" y2="277.9"/>
+<line class="st1" x1="-404.5" y1="272.5" x2="-387.2" y2="255.6"/>
 </svg>
