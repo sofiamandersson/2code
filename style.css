@@ -131,7 +131,7 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 .clouds_regular img:nth-child(4){top: 23%;left: 10%; width: 40%;}
 
-.clouds_regular img:nth-child(5){top: 55%;right: 0; opacity: 0.5; width: 40%;}
+.clouds_regular img:nth-child(5){top: 50%;right: 0; opacity: 0.5; width: 40%;}
 
 /*----followers----*/
 .followers1 {margin-top: 40%;}
@@ -150,7 +150,7 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 /*-------Hail---------*/
 
-.hail img:nth-child(1) {top: -65%;left: -250%; width: 3500px; height: 3500px;}
+.hail img:nth-child(1) {top: -78%;left: -250%; width: 3500px; height: 3500px;}
 
 /*---------clouds worried-------*/
 
