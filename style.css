@@ -244,21 +244,21 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 /*-----Waves-----*/
 
-.waves img:nth-child(1) {top: 25%;left: 5%;width: 70%;}
+.waves img:nth-child(1) {top: 0;right: 0;width: 70%;}
 
-.waves img:nth-child(2) {top: 4%;left: 5%;width: 70%;}
+.waves img:nth-child(2) {top: 5%;left: 0;width: 70%;}
 
-.waves img:nth-child(3) {top: 40%;left: 0;width: 70%;}
+.waves img:nth-child(3) {top: 25%;right: 0;width: 70%;}
 
-.waves img:nth-child(4) {top: 50%;right: 0;width: 70%;}
+.waves img:nth-child(4) {top: 35%;left: 0;width: 70%;}
 
-.waves img:nth-child(5) {top: 5%;right: 0;width: 70%;}
+.waves img:nth-child(5) {top: 45%;right: 0;width: 70%;}
 
-.waves img:nth-child(6) {top: 18%;right: 0;width: 70%;}
+.waves img:nth-child(6) {top: 55%;left: 0;width: 70%;}
 
-.waves img:nth-child(7) {top: 35%;right: 0;width: 70%;}
+.waves img:nth-child(7) {top: 65%;right: 0;width: 70%;}
 
-.waves img:nth-child(8) {top: 60%; left: 0; width: 70%;}
+.waves img:nth-child(8) {top: 85%; left: 0; width: 70%;}
 
 /*-------mountain------*/
 
