@@ -18,11 +18,8 @@ h1{
 	margin:0 auto;
 	width: 100%;
 	text-align: center;	
-	padding-top: 3%;
+	padding-top: 5%;
 	font-size: 4em;
-    color:#4accc2;
-    z-index: 10;
-    background: url('images/new/1_sign_white_1.svg') no-repeat center;
 }
 
 a {color: #fff;}
@@ -56,7 +53,7 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 .popuptext5 {top: 4%; float: right;}
 
-.popuptext6 {top: 10%;}
+.popuptext6 {top: 20%;}
 
 .popuptext7 {top: 25%; float: right;}
 
@@ -115,7 +112,7 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 /*----bird-----*/
 .bird {
   position: absolute;
-  top: 25%;
+  top: 20%;
   left: 70%;
   width: 10%;
 }
@@ -174,13 +171,9 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 .house_row2 img:nth-child(1) {top: -15%;left: 0;width: 100%;}
 
-.house_row2 img:nth-child(2) {top: -20%;right: 13%;width: 25%;}
+.house_row2 img:nth-child(2) {top: -15%;left: 0;width: 10%;}
 
-.house_row2 img:nth-child(3) {top: -18%;left: 12%;width: 25%;}
-
-.house_row2 img:nth-child(4) {top: -3%;right: 12%;width: 10%;}
-
-.house_row2 img:nth-child(5) {top: -3%;left: 12%;width: 10%;}
+.house_row2 img:nth-child(3) {top: -15%;left: 0;width: 10%;}
 
 
 /*----First town----*/
@@ -210,12 +203,6 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 .firsttown img:nth-child(13){top:38%;left:70%; width: 10%;}
 
-.firsttown img:nth-child(14){top:20%;left:74%; width: 10%;}
-
-.firsttown img:nth-child(15){top:20%;left:59%; width: 10%;}
-
-.firsttown img:nth-child(16){top:65%;left:36%; width: 14%;}
-
 
 /*-----shore-----*/
 
@@ -244,21 +231,21 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 /*-----Waves-----*/
 
-.waves img:nth-child(1) {top: 0;right: 0;width: 70%;}
+.waves img:nth-child(1) {top: 25%;left: 5%;width: 70%;}
 
-.waves img:nth-child(2) {top: 4%;left: 0;width: 70%;}
+.waves img:nth-child(2) {top: 4%;left: 5%;width: 70%;}
 
-.waves img:nth-child(3) {top: 25%;right: 0;width: 70%;}
+.waves img:nth-child(3) {top: 40%;left: 0;width: 70%;}
 
-.waves img:nth-child(4) {top: 35%;left: 0;width: 70%;}
+.waves img:nth-child(4) {top: 50%;right: 0;width: 70%;}
 
-.waves img:nth-child(5) {top: 45%;right: 0;width: 70%;}
+.waves img:nth-child(5) {top: 5%;right: 0;width: 70%;}
 
-.waves img:nth-child(6) {top: 55%;left: 0;width: 70%;}
+.waves img:nth-child(6) {top: 18%;right: 0;width: 70%;}
 
-.waves img:nth-child(7) {top: 67%;right: 0;width: 70%;}
+.waves img:nth-child(7) {top: 35%;right: 0;width: 70%;}
 
-.waves img:nth-child(8) {top: 85%; left: 0; width: 70%;}
+.waves img:nth-child(8) {top: 60%; left: 0; width: 70%;}
 
 /*-------mountain------*/
 
@@ -395,17 +382,19 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 
 .thirdtown img:nth-child(4){top:25%; right: 33%; width:15%;}
 
-.thirdtown img:nth-child(5){top: 40%; left: 15%; width:15%;}
+.thirdtown img:nth-child(5){top:25%; right: 45%; width:15%;}
 
-.thirdtown img:nth-child(6){top: 20%; left: 5%; width:15%;}
+.thirdtown img:nth-child(6){top: 40%; left: 15%; width:15%;}
 
-.thirdtown img:nth-child(7){top: 20%; right: 5%; width:15%;}
+.thirdtown img:nth-child(7){top: 20%; left: 5%; width:15%;}
 
-.thirdtown img:nth-child(8){top: 22.3%; left: 0; width: 10%;}
+.thirdtown img:nth-child(8){top: 20%; right: 5%; width:15%;}
 
-.thirdtown img:nth-child(9){top: 30%; right: 20%; width: 10%;}
+.thirdtown img:nth-child(9){top: 22.3%; left: 0; width: 10%;}
 
-.thirdtown img:nth-child(10){top: 5%; right: 23%; width: 10%;}
+.thirdtown img:nth-child(10){top: 30%; right: 20%; width: 10%;}
+
+.thirdtown img:nth-child(11){top: 5%; right: 23%; width: 10%;}
 
 /*-------town------*/
 
@@ -464,7 +453,7 @@ a:hover{color: #ea9c68; transition: 0.3s;}
 .part:nth-child(11) ul {
     list-style-type: none;
     text-align: center;
-    margin-top: 220px
+    margin-top: 150px
 }
 
 article {
