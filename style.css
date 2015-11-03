@@ -656,7 +656,7 @@ footer a {
        margin-left: -36px; top: 
    }
    
-   .clouds_regular img, .cloud_hail img, .cloud_worried img, .waves img, .bushes img, .stones img, .cloud_stretch img {padding-top: 200px}
+   .clouds_regular img, .cloud_hail img, .cloud_worried img, .waves img, .cloud_stretch img {padding-top: 200px}
     
     .hail img:nth-child(1) {top: -60%;left: -370%; width: 1500px; height: 1500px;}
     
@@ -688,19 +688,19 @@ footer a {
     .moutain img:nth-child(1) {bottom: -%}
     .moutain img:nth-child(2) {bottom: -%}
     
-    .bushes img:nth-child(1) {top: 22%}
-    .bushes img:nth-child(2) {top: 35%}
-    .bushes img:nth-child(3) {top: 1%}
-    .bushes img:nth-child(4) {top: 35%}
+    .bushes img:nth-child(1) {top: 50%}
+    .bushes img:nth-child(2) {top: 40%}
+    .bushes img:nth-child(3) {top: 55%}
+    .bushes img:nth-child(4) {top: 67%}
     
-    .stones img:nth-child(1) {top: 41%}
-    .stones img:nth-child(2) {top: 15%}
-    .stones img:nth-child(3) {top: 10%}
-    .stones img:nth-child(4) {top: 50%}
-    .stones img:nth-child(5) {top: 20%}
-    .stones img:nth-child(6) {top: 30%}
-    .stones img:nth-child(7) {top: 45%}
-    .stones img:nth-child(8) {top: 30%}
+    .stones img:nth-child(1) {top: 72%}
+    .stones img:nth-child(2) {top: 42%}
+    .stones img:nth-child(3) {top: 40%}
+    .stones img:nth-child(4) {top: 82%}
+    .stones img:nth-child(5) {top: 48%}
+    .stones img:nth-child(6) {top: 60%}
+    .stones img:nth-child(7) {top: 77%}
+    .stones img:nth-child(8) {top: 60%}
     
     .trees_row2 img:nth-child(1) {top: -7.5%}
     
@@ -767,4 +767,13 @@ footer a {
    article {padding: 0}
    
    .part:nth-child(11) p {width: 280px;}
+	
+	.soc li a {
+    
+    width: 60px;
+    height: 60px;
+		line-height: 60px;
+    font-size: 34px;
+	}
+	
 }
